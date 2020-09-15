@@ -1,0 +1,1743 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<root>
+<f>
+	<tit>1 On the database level are stored</tit>
+	
+		<a>applications</a>
+		<b>programs</b>
+		<c>metadata</c>
+		<d>SAPGUI</d>
+	
+	<cor>A B C</cor>
+</f>
+<f>
+	<tit>2 The called black box consists of ?</tit>
+	
+		<a>all three layers of the client-server architecture of the SAP WAS-system</a>
+		<b>Presentation layer and application layer</b>
+		<c>Application layer and database</c>
+		<d>Presentation layer and database</d>
+	
+	<cor>C</cor>
+</f>
+<f>
+	<tit>3 There is technically, for example, these different types of screen images</tit>
+	
+		<a>screens</a>
+		<b>graphics</b>
+		<c>selection Screens</c>
+		<d>lists</d>
+	
+	<cor>A C D</cor>
+</f>
+<f>
+	<tit>4 The information on memory areas for variables and complex data objects removes the runtime system</tit>
+	
+		<a>the ABAP processing block</a>
+		<b>ABAP program</b>
+		<c>the repository</c>
+		<d>the screen</d>
+	
+	<cor>C</cor>
+</f>
+<f>
+	<tit>5 ( Questions about BC 400) ( BC400 ) : As long as the user fills the input fields on the selection screen , the control over the course of the program lies with the</tit>
+	
+		<a>Presentation Server</a>
+		<b>application server</b>
+		<c>Database server</c>
+		<d>For data protection reasons, SAP shall not control the course of the program .</d>
+	
+	<cor>A</cor>
+</f>
+<f>
+	<tit>6 Which statements are correct to the repository</tit>
+	
+		<a>The repository is client-dependent</a>
+		<b>The repository is client-independent</b>
+		<c>The repository consists of all development objects of the system</c>
+		<d>In the repository, both delivered by SAP and the customer -defined objects are kept .</d>
+	
+	<cor>B C D</cor>
+</f>
+<f>
+	<tit>7 Definition of elementary data objects.</tit>
+	
+		<a>Use the VALUE addition , you can preset the value of an elementary data objects</a>
+		<b>Missing in the variable definition , the type specification , the default type C is assumed .</b>
+		<c>Missing in the variable definition , the type specification , the default type N is assumed .</c>
+		<d>If there is no length specified for the standard type C, the default length 1 used economically .</d>
+	
+	<cor>A B D</cor>
+</f>
+<f>
+	<tit>8 As can be started in the command field of the debugger?</tit>
+	
+		<a>&#8260; hs + Enter</a>
+		<b>&#8260; debug</b>
+		<c>&#8260; h + &lt;enter&gt;</c>
+		<d>&#8260; H</d>
+	
+	<cor>A C</cor>
+</f>
+<f>
+	<tit>9 7a) MOVE TO var1 var2 . and b ) var2 = var1 . Which statement is true ?</tit>
+	
+		<a>var1 must be a variable .</a>
+		<b>var2 must be a variable .</b>
+		<c>Instructions a) and b ) have the same effect</c>
+		<d>in b ) the keyword CALCULATE was omitted</d>
+	
+	<cor>B C</cor>
+</f>
+<f>
+	<tit>10 Which statements are true to type Character ?</tit>
+	
+		<a>Type C can accommodate all characters in the character set , even the non-printable .</a>
+		<b>Missing when a variable definition, the type specification , so standard type C is assumed , which has the default length 1 .</b>
+		<c>A structure is always of type C writes from left to right .</c>
+		<d>Type C belongs to the group of complete ABAP standard types .</d>
+	
+	<cor>A B C</cor>
+</f>
+<f>
+	<tit>11 What does the MOVE statement ?</tit>
+	
+		<a>This contents of a data object can be moved.</a>
+		<b>Data objects are always defined with this keyword.</b>
+		<c>The data is transferred according to the rules of the receiving field.</c>
+		<d>The receiving field must be a variable .</d>
+	
+	<cor>C D</cor>
+</f>
+<f>
+	<tit>12 Which operators are valid for the arithmetic expressions in ABAP ?</tit>
+	
+		<a>**</a>
+		<b>/</b>
+		<c>DIV</c>
+		<d>x</d>
+	
+	<cor>A B C</cor>
+</f>
+<f>
+	<tit>13 What types of data are ABAP standard types ?</tit>
+	
+		<a>D, T , STRING, XSTRING</a>
+		<b>C, I, F, N</b>
+		<c>X, P , C, F</c>
+		<d>VARCHAR , Z, F, XCHAR</d>
+	
+	<cor>A B C</cor>
+</f>
+<f>
+	<tit>14 The ABAP programming language ...</tit>
+	
+		<a>does not allow direct database access</a>
+		<b>She always has the same meaning and functionality , regardless of which relational database system and operating system for application and presentation servers are used</b>
+		<c>In ABAP realized applications are also run in future releases be ( upward compatibility of the language)</c>
+		<d></d>
+	
+	<cor>B C</cor>
+</f>
+<f>
+	<tit>15 The ABAP programming language ...</tit>
+	
+		<a>in many ABAP statements , the ABAP runtime system writes the associated return code in the system field SY- SUBRC to provide information on the success with which this statement could be executed</a>
+		<b>Create the program if the flag is set in with the TOP include , distribute your code to multiple units</b>
+		<c>when a development object is created or modified and then saved , only one inactive version will initially be stored in the repository</c>
+		<d>A B C</d>
+	
+	<cor></cor>
+</f>
+<f>
+	<tit>16 Statements to ABAP data element and domain : True or False ?</tit>
+	
+		<a>The data element includes both the technical as well as the semantic field description of a data field .</a>
+		<b>Among the technical field properties include, among others , the data type , the value range and field length .</b>
+		<c>The domain of a data field describes its semantic properties .</c>
+		<d>A domain can be used as a description of the technical field properties for multiple data fields.</d>
+	
+	<cor>A B D</cor>
+</f>
+<f>
+	<tit>17 ABAP statements , data objects, etc. : True or False ?</tit>
+	
+		<a>Data objects are , inter alia, defined with the keyword DATA .</a>
+		<b>Use the VALUE of the "zero" of a data object can be excluded.</b>
+		<c>When defining a variable to specify the data type is mandatory.</c>
+		<d>The MOVE statement transfers the contents of a data object to another data object .</d>
+	
+	<cor>A D</cor>
+</f>
+<f>
+	<tit>18 Working with ABAP structures : True or False ?</tit>
+	
+		<a>The statement "DATA TYPE var1 var2 " is suitable in any case , to define a structure variable .</a>
+		<b>The statement "MOVE TO struc1 struc2 " transfers the contents of the field in the structure1 structure2 .</b>
+		<c>With structural variables / structures logically related values ??can be summarized in a data object .</c>
+		<d>Only defective field contents of a structure can be traced in the debugger.</d>
+	
+	<cor>B C</cor>
+</f>
+<f>
+	<tit>19 Internal Tables : True or False ?</tit>
+	
+		<a>An internal table is a data object that can contain multiple similarly structured data sets simultaneously.</a>
+		<b>Line type , key , and table type technical domain specify an internal table.</b>
+		<c>In internal tables , there may be unique and non-unique keys.</c>
+		<d>In order to enable performance access , the table type (Standard, Sorted and Hashed ) does not matter.</d>
+	
+	<cor>A C</cor>
+</f>
+<f>
+	<tit>20 For system architecture right or wrong?</tit>
+	
+		<a>The SAP Web Application Server has a modular architecture that follows the hardware- oriented client - server principle.</a>
+		<b>The lowest level is the database - level</b>
+		<c>The third level is the so-called presentation server level</c>
+		<d>Programs that have been developed by customers and partners to run on the application server level</d>
+	
+	<cor>B C D</cor>
+</f>
+<f>
+	<tit>21 The organization of a development project with the help of a change request has the following advantages : right or wrong?</tit>
+	
+		<a>Each employee can pursue and monitor its project activities separately.</a>
+		<b>All employees of the project can edit the properties of the order</b>
+		<c>A transport of objects is guaranteed by impetus by the project</c>
+		<d>The disadvantage is that developers who do not belong to the project , can not perform changes to these objects to the release of the change request .</d>
+	
+	<cor>A B C</cor>
+</f>
+<f>
+	<tit>22 What is the repository?</tit>
+	
+		<a>As a source of information for frequently asked user questions .</a>
+		<b>Inter alia for the administration of programs , function blocks and the tables that were created in the database .</b>
+		<c>As an information base for the applications maintained by SAP and the customer-defined objects.</c>
+		<d>As a client-specific database.</d>
+	
+	<cor>B C</cor>
+</f>
+<f>
+	<tit>23 Transparent tables</tit>
+	
+		<a>Can be edited by any user .</a>
+		<b>Are only in their own clients visible.</b>
+		<c>Represent a platform-independent table description.</c>
+		<d>Possess at least one key field .</d>
+	
+	<cor>C D</cor>
+</f>
+<f>
+	<tit>24 The fields of a transparent table</tit>
+	
+		<a>typified by reusable data elements .</a>
+		<b>must have different values.</b>
+		<c>be fully specified by its short description.</c>
+		<d>can have more than one primary key.</d>
+	
+	<cor>A</cor>
+</f>
+<f>
+	<tit>25 A complete ABAP data type can be</tit>
+	
+		<a>C - fix string</a>
+		<b>I - Integer</b>
+		<c>T - time</c>
+		<d>STRING - a string dynamically</d>
+	
+	<cor>B C D</cor>
+</f>
+<f>
+	<tit>26 For system architecture right or wrong?</tit>
+	
+		<a>The SAP Web Application Server has a modular architecture that follows the hardware- oriented client - server principle.</a>
+		<b>The lowest level is the database - level</b>
+		<c>The third level is the so-called presentation server level</c>
+		<d>Programs that have been developed by customers and partners to run on the application server level</d>
+	
+	<cor>B C D</cor>
+</f>
+<f>
+	<tit>27 What are the important tools , SAP Workbench available?</tit>
+	
+		<a>ABAP Dictionary</a>
+		<b>Object Navigator</b>
+		<c>ABAP vendor</c>
+		<d>Web Application Builder</d>
+	
+	<cor>A B D</cor>
+</f>
+<f>
+	<tit>28 What information can be found in the ABAP Dictionary?</tit>
+	
+		<a>Data elements and domain.</a>
+		<b>Interface programs and dialog control .</b>
+		<c>Fields that are used in tables , screens and programs.</c>
+		<d>Views, Search helps and Lock objects</d>
+	
+	<cor>A B C D</cor>
+</f>
+<f>
+	<tit>29 What is one of the ABAP screen images ?</tit>
+	
+		<a>screens</a>
+		<b>selection Screens</b>
+		<c>lists</c>
+		<d>news</d>
+	
+	<cor>A B C D</cor>
+</f>
+<f>
+	<tit>30 Which statements are correct?</tit>
+	
+		<a>Repository is always client-independent. That , any client can access it.</a>
+		<b>Application tables are basically client-independent. You do not have clients column.</b>
+		<c>Customizing tables are i.d.R. client-independent. Then you do not have a client column.</c>
+		<d>When you create a repository Ojektes it must always be assigned to a package .</d>
+	
+	<cor>A D</cor>
+</f>
+<f>
+	<tit>31 System architecture , repository, and Object Navigator : which ones are right ?</tit>
+	
+		<a>At the database level data. Programs are there not exist.</a>
+		<b>The repository is divided for packages .</b>
+		<c>Basically up to 18 work processes can be controlled.</c>
+		<d>In ABAP Objects are client-dependent .</d>
+	
+	<cor>B C</cor>
+</f>
+<f>
+	<tit>32 ABAP language elements : what Ausagen are correct?</tit>
+	
+		<a>A part of a structure ( box ) can be accessed with or without hyphens .</a>
+		<b>Move- Corresponding copies contents of source structure in the target structure . It must be his same name as at least one component in both structures .</b>
+		<c>A structure always has a data type CHAR .</c>
+		<d></d>
+	
+	<cor>B C</cor>
+</f>
+<f>
+	<tit>33 Where is the repository stored ?</tit>
+	
+		<a>presentation level</a>
+		<b>application level</b>
+		<c>DB level</c>
+		<d>In the run-time layer</d>
+	
+	<cor>C</cor>
+</f>
+<f>
+	<tit>34 SE80 - Object Navigator - which they can select object list selection?</tit>
+	
+		<a>programs</a>
+		<b>screens</b>
+		<c>Class / interface</c>
+		<d>development Class</d>
+	
+	<cor>A C</cor>
+</f>
+<f>
+	<tit>35 Statements on the subject Repository</tit>
+	
+		<a>The repository consists only of ABAP programs</a>
+		<b>The repository is a special part of the central DB of the SAP system</b>
+		<c>The repository is Client-specific</c>
+		<d>The repository contains , inter alia, the development objects</d>
+	
+	<cor>B D</cor>
+</f>
+<f>
+	<tit>36 Statements about R / 3 Repository !</tit>
+	
+		<a>The database contains both application and Customizing - tables</a>
+		<b>The repository does not contain development objects</b>
+		<c>Repository objects are mandant enun abhanig</c>
+		<d>The R / 3 Repository is a special part of the central database of the SAP system.</d>
+	
+	<cor>A C D</cor>
+</f>
+<f>
+	<tit>37 What kinds of comments are correct</tit>
+	
+		<a>*</a>
+		<b>#</b>
+		<c>&quot;(Quotation marks is suppressed partly in Excel)</c>
+		<d>&apos;</d>
+	
+	<cor>A C</cor>
+</f>
+<f>
+	<tit>38 Data objects are defined by the following statement</tit>
+	
+		<a>Tables</a>
+		<b>DATA</b>
+		<c>parameter</c>
+		<d>TYPE</d>
+	
+	<cor>A B C</cor>
+</f>
+<f>
+	<tit>39 Which statement is true about the ABAP Dictionary</tit>
+	
+		<a>The ABAP Dictionary is used as a tool for data modeling</a>
+		<b>The structures are defined in the ABAP Dictionary are available only to users of the development class available</b>
+		<c>The Data Dictionary is the system-wide description of data types and structures.</c>
+		<d>The Data Dictionary contains so-called Type pools</d>
+	
+	<cor>C D</cor>
+</f>
+<f>
+	<tit>40 The following repository objects can be edited with the tools in the ABAP Workbench</tit>
+	
+		<a>Data Modeler</a>
+		<b>ABAP Query</b>
+		<c>Workbench Organizer</c>
+		<d>Function buffer</d>
+	
+	<cor>A B C</cor>
+</f>
+<f>
+	<tit>41 Statements on the subject SELECT - statement</tit>
+	
+		<a>The SELECT SINGLE statement * read a single record from the database table.</a>
+		<b>Behind the SELECT - statement conceals a complex logic that allows to access many different types of database tables.</b>
+		<c>The SELECT - statement names the source ( database table or view) from which the data should be selected .</c>
+		<d>About the * the database interface is given the information that all the rows of the database table to be read</d>
+	
+	<cor>A B C</cor>
+</f>
+<f>
+	<tit>42 Statements on the subject ABAP</tit>
+	
+		<a>ABAP stands for Advanced Business Application Programming and is a programming language that SAP has developed for the development of application programs .</a>
+		<b>ABAP is designed for the development of user dialogs in a distributed R/3-System .</b>
+		<c>ABAP programs are related to the SAP-based platform-dependent</c>
+		<d>ABAP contains a special instruction set called ABAP Open SQL for database access .</d>
+	
+	<cor>A B D</cor>
+</f>
+<f>
+	<tit>43 Internal tables are</tit>
+	
+		<a>stored in the database</a>
+		<b>managed dynamically by the runtime system</b>
+		<c>defined for global table types or for program- internal types</c>
+		<d>specified by the line type , the key and the table type .</d>
+	
+	<cor>B C D</cor>
+</f>
+<f>
+	<tit>44 Table operations</tit>
+	
+		<a>SELECT</a>
+		<b>UPDATE</b>
+		<c>INSERT</c>
+		<d>EDIT</d>
+	
+	<cor>A B C</cor>
+</f>
+<f>
+	<tit>45 Statements to ABAP data element and domain : True or False ?</tit>
+	
+		<a>The data element includes both the technical as well as the semantic field description of a data field .</a>
+		<b>Among the technical field properties include, among others , the data type , the value range and field length .</b>
+		<c>The domain of a data field describes its semantic properties .</c>
+		<d>A domain can be used as a description of the technical field properties for multiple data fields.</d>
+	
+	<cor>A B D</cor>
+</f>
+<f>
+	<tit>46 Internal tables - table types : Correct ?</tit>
+	
+		<a>You can choose standard tables, sorted tables, hash tables and working area tables.</a>
+		<b>For hashed tables only key accesses are possible.</b>
+		<c>The blockwise processing is optimized with the help of Working area tables.</c>
+		<d>Possible to standard and Sorted tables both index and key access .</d>
+	
+	<cor>B D Correct</cor>
+</f>
+<f>
+	<tit>47 Read from database tables: True or False ?</tit>
+	
+		<a>With "SELECT SINGLE" , a single record from the database to be read.</a>
+		<b>The use of the WHERE clause in the record selection always has a negative impact on performance.</b>
+		<c>For the definition of a table join , it is sufficient to specify the affected tables (JOIN ) tables and the JOIN condition .</c>
+		<d>A database view is only one view of a database table and contains no data.</d>
+	
+	<cor>A D</cor>
+</f>
+<f>
+	<tit>48 Working with internal tables. Which statements are correct?</tit>
+	
+		<a>The individual data of an internal table are called table lines or table columns.</a>
+		<b>The size of an internal table is dynamically managed by the ABAP runtime system.</b>
+		<c>An internal table is a data object in which you can hold to maturity equal to several struktiurierte records.</c>
+		<d>The number of records is limited only by the available disk space.</d>
+	
+	<cor>B C D</cor>
+</f>
+<f>
+	<tit>49 Working with internal tables. Which statements are correct? </tit>
+	
+		<a>The individual components of a table called fields or columns of the internal table .</a>
+		<b>The line type of an internal table is always specified by the data type C ( Character ) .</b>
+		<c>The line type describes the structure of the table rows .</c>
+		<d>The memory management is performed by the developer for internal tables .</d>
+	
+	<cor>A C</cor>
+</f>
+<f>
+	<tit>50 Working with internal tables. Which statements are correct?</tit>
+	
+		<a>There are the table types: Standard, Sorted , Hashed and index.</a>
+		<b>The type of table index should you choose when you use primarily by index to the internal table .</b>
+		<c>For hashed tables only key accesses are possible.</c>
+		<d>One speaks of a key access when accessed by specifying the key value on an entry.</d>
+	
+	<cor>C D</cor>
+</f>
+<f>
+	<tit>51 Working with internal tables. Which statements are correct?</tit>
+	
+		<a>The type of an internal table is called a table type.</a>
+		<b>Table types can only be defined globally in the ABAP Dictionary .</b>
+		<c>You can also directly define an internal table. TYPES must be used instead of DATA .</c>
+		<d>In the enumeration of key fields in the table type, the order does not matter .</d>
+	
+	<cor>a</cor>
+</f>
+<f>
+	<tit>52 Working with internal tables. Which statements are correct?</tit>
+	
+		<a>For single record processing an internal table , you need a so-called work area in most cases.</a>
+		<b>The work area must be one of the same type with the line type of the internal table defined structure variable.</b>
+		<c>When defining an internal table , you should always use it as a table key default -Key .</c>
+		<d>The usual syntax for defining an internal table as follows: DATA itab TYPE TABLE OF &lt;Tabellentyp&gt; .</d>
+	
+	<cor>a b</cor>
+</f>
+<f>
+	<tit>53 The statement ' DATA wa LIKE LINE of itab ' defines a work area . The statement ' DATA itab TYPE TABLE OF scarr WITH HEADER LINE' a header . Why is the use of header now obsolete?</tit>
+	
+		<a>performance reasons</a>
+		<b>Use is not permitted in structures and internal tables that hold internal tables as components</b>
+		<c>Use is not allowed in ABAP Objects</c>
+		<d>because the header has the same name as the internal table ( readability of the ABAP program )</d>
+	
+	<cor>B C D</cor>
+</f>
+<f>
+	<tit>54 A structure variable or internal table which, although under construction but does not coincide with the fields with the same field string can be obtained by following instructions received data correctly</tit>
+	
+		<a>SELECT ... INTO CORRESPONDING FIELDS OF wa_it</a>
+		<b>SELECT ... INTO SAME FIELDS OF wa_it</b>
+		<c>SELECT ... INTO CORRESPONDING FIELDS OF TABLE itab</c>
+		<d>both the field names and the structure of the field string must match</d>
+	
+	<cor>A C</cor>
+</f>
+<f>
+	<tit>55 Defining and calling subroutines</tit>
+	
+		<a>Subroutines can be defined at any point .</a>
+		<b>The subroutine call is initiated by the CALL instruction.</b>
+		<c>For internal tables should be passed the address ( Call by Reference ) .</c>
+		<d>A value parameter passing is declared by "VALUE par_name " .</d>
+	
+	<cor>C</cor>
+</f>
+<f>
+	<tit>56 Subroutines</tit>
+	
+		<a>By subroutines the program structure and self-documentation of the code is improved.</a>
+		<b>Subroutines are no global variables can be used.</b>
+		<c>Subroutines are declared at the end of the program by the SHAPE command.</c>
+		<d>The name of a global variable can in the subroutine redefined ( superposed) .</d>
+	
+	<cor>A C D</cor>
+</f>
+<f>
+	<tit>57 APAB subroutines : True or False ?</tit>
+	
+		<a>The PERFORM and FORM ENDFORM instructions are for the call and the definition of an ABAP subroutine.</a>
+		<b>By following handover types , the variables of the main program are passed to the formal parameters of the subroutine : Call by Value ( value transfer ) , call by value and result ( pass by value and Return ) and call-by- address ( address given ) .</b>
+		<c>In the main program defined variables are called global data objects .</c>
+		<d>Local data objects and the formal parameters exist in subroutines.</d>
+	
+	<cor>A C D</cor>
+</f>
+<f>
+	<tit>58 Statements on the subject alphanumeric data transfer</tit>
+	
+		<a>Data fields are transmitted right-to- left</a>
+		<b>Data fields are transmitted from left to right</b>
+		<c>Data fields of type C are starting on the left padded with spaces</c>
+		<d>Data fields of type C are starting at the right padded with spaces</d>
+	
+	<cor>B C</cor>
+</f>
+<f>
+	<tit>59 Right?</tit>
+	
+		<a>CLEAR Deletes the entire table</a>
+		<b>Free deletes the internal table and frees the memory</b>
+		<c>REFRESH acts like Free</c>
+		<d>Clear int table sets the contents of the internal table to the initial value according to type</d>
+	
+	<cor>B D</cor>
+</f>
+<f>
+	<tit>60 What is the single block operation "READ" causes</tit>
+	
+		<a>deletes a row from the internal table</a>
+		<b>copies the contents of one line of the internal table in a structure that is the same type as the line type (must be specified)</b>
+		<c>Overwrites a line of the internal table with the contents of a structure that is the same type as the line type</c>
+		<d>Copies the contents of multiple rows of an internal table to another internal table</d>
+	
+	<cor>B</cor>
+</f>
+<f>
+	<tit>61 Tools of the ABAP Workbench. are .....</tit>
+	
+		<a>ABAP Editor</a>
+		<b>Screen Painter</b>
+		<c>Menu Builder</c>
+		<d>Class Builder</d>
+	
+	<cor>A B D</cor>
+</f>
+<f>
+	<tit>62 Data objects can be defined using the following instructions</tit>
+	
+		<a>VAR</a>
+		<b>TABLES</b>
+		<c>VIEW</c>
+		<d>CONSTANTS</d>
+	
+	<cor>B D</cor>
+</f>
+<f>
+	<tit>63 What types of screens are there?</tit>
+	
+		<a>box</a>
+		<b>list</b>
+		<c>selection screens</c>
+		<d>Dynpro</d>
+	
+	<cor>B C D</cor>
+</f>
+<f>
+	<tit>64 What does the type of c</tit>
+	
+		<a>Floating point number ( of cloaking number)</a>
+		<b>arbitrary character of the sign is depleted</b>
+		<c>but any alphanumeric number , valid values ??are only the digits 0 to 9</c>
+		<d>pay</d>
+	
+	<cor>B</cor>
+</f>
+<f>
+	<tit>65 Statements on the subject Select - statement ....</tit>
+	
+		<a>The FROM - clause determines which program will be transferred from data.</a>
+		<b>The SINGLE addition provides the information that only one line to be read.</b>
+		<c>The read data are transmitted in a predefined structure,</c>
+		<d>The WHERE - clause specifies in which table the data is located .</d>
+	
+	<cor>B C</cor>
+</f>
+<f>
+	<tit>66 Which statements are true regarding ABAP syntax ?</tit>
+	
+		<a>Rates may be indented</a>
+		<b>Every sentence must end with a comma or period</b>
+		<c>There always must be a space between instruction and : are</c>
+		<d>All keywords must be uppercase</d>
+	
+	<cor>A</cor>
+</f>
+<f>
+	<tit>67 What does the following data definition line in an ABAP program? "PARAMETERS : . Pa_car TYPE scarr - carrid "</tit>
+	
+		<a>The declaration of a variable of type " scarr - carrid "</a>
+		<b>The Calls a selection screen</b>
+		<c>Mistake to regard the debugger</c>
+		<d>Specify the prompt to the user , an airline</d>
+	
+	<cor>A B D</cor>
+</f>
+<f>
+	<tit>68 Screens , lists, and selection screens : right or wrong ?</tit>
+	
+		<a>A selection screen is not a screen.</a>
+		<b>For layout of a screen input and output fields , radio buttons, checkboxes and pushbuttons can belong .</b>
+		<c>With the command AT LINE-SELECTION in the program is to reach a branching list possible in the data output of a basic list .</c>
+		<d>Within a screen sequence the previous screen determines the subsequent screen. The formal Next screen 0 will let the processing branch back to the calling point .</d>
+	
+	<cor>B C D</cor>
+</f>
+<f>
+	<tit>69 Screen consists of</tit>
+	
+		<a>layout</a>
+		<b>pushbuttons</b>
+		<c>consolidation block</c>
+		<d>processing logic</d>
+	
+	<cor>A B D</cor>
+</f>
+<f>
+	<tit>70 Screen Process: Which statements are correct?</tit>
+	
+		<a>You can switch from Dynpro1 to Dynpro2 before PAI of Dynpro1 is finished.</a>
+		<b>You can switch from Dynpro1 to Dynpro2 after PAI of Dynpro1 is finished.</b>
+		<c>Dynpro property contains 6-digit number as an identifier</c>
+		<d>List is also a screen object</d>
+	
+	<cor>B D</cor>
+</f>
+<f>
+	<tit>71 Which of the following statements about the general ABAP syntax when creating the program are true?</tit>
+	
+		<a>An ABAP program consists of individual records ( statements) .</a>
+		<b>Each set of instructions can be terminated with a semicolon.</b>
+		<c>The first word in a sentence is called a keyword.</c>
+		<d>Successive records with identical top can be combined into one chain kit.</d>
+	
+	<cor>A C D</cor>
+</f>
+<f>
+	<tit>72 A keyword operational processes data when certain events and conditions occur. Which of the keywords are correct?</tit>
+	
+		<a>DATA</a>
+		<b>WRITE</b>
+		<c>MOVE</c>
+		<d>ADD</d>
+	
+	<cor>B C D</cor>
+</f>
+<f>
+	<tit>73 Which of the following data definitions allowed by the SAP conventions in a program without a previous declaration of the data type ( TYPES statement :) be made ?</tit>
+	
+		<a>DATA: TYPE An_zeit t</a>
+		<b>DATA: TYPE Nname Name_typ</b>
+		<c>DATA: TYPE Nname Char30</c>
+		<d>DATA: TYPE string Nname</d>
+	
+	<cor>A C D</cor>
+</f>
+<f>
+	<tit>74 Between which types of packages you can choose when creating packets ?</tit>
+	
+		<a>Normal package repository can - include objects and other packages</a>
+		<b>Express package , can only repository - include objects</b>
+		<c>Main package may only contain other packages</c>
+		<d>Structure package can include only main packages</d>
+	
+	<cor>A C D</cor>
+</f>
+<f>
+	<tit>75 Global variables called SAP actual and formal parameter placeholders in subroutines . Which statements are correct?</tit>
+	
+		<a>Call by Value : from the actual one copy is created and assigned to the formal parameters .</a>
+		<b>Call by Reference : assigning values ??to the formal parameters are performed directly on the actual parameters.</b>
+		<c>Call by Value : Value changes to the formal parameter , change the value of the actual parameter .</c>
+		<d>A generic classification of the formal parameter is preferable to the actual typing.</d>
+	
+	<cor>A B</cor>
+</f>
+<f>
+	<tit>76 The definition of a selection option creates an internal table within the program . Which statements are the right ones ?</tit>
+	
+		<a>this has sign the four columns option , min , max.</a>
+		<b>With an empty table specified for that field WHERE condition is always true.</b>
+		<c>this has the four columns sign , option , low, high .</c>
+		<d>With an empty table there is a runtime error .</d>
+	
+	<cor>B C</cor>
+</f>
+<f>
+	<tit>77 The surface of a screen is , inter alia, from .....</tit>
+	
+		<a>GUI - Title</a>
+		<b>menu bar</b>
+		<c>toolbar</c>
+		<d>Toolbar</d>
+	
+	<cor>A B C D</cor>
+</f>
+<f>
+	<tit>78 AT LINE SELECTION: Which statements are correct?</tit>
+	
+		<a>sy- lsind is an index and indicates which row the user has selected .</a>
+		<b>sy- lsind indicates the current list level .</b>
+		<c>the key values ??of each basic list must be kept in the HIDE area .</c>
+		<d>it is necessary to HIDE fields issue before with the WRITE statement.</d>
+	
+	<cor>B C</cor>
+</f>
+<f>
+	<tit>79 What qualities have screens ?</tit>
+	
+		<a>Screen is the abbreviation for " Dynamic process " .</a>
+		<b>If a SAP - specific term for a screen and its flow logic .</b>
+		<c>A once -scale screen belongs not only to the program in which it was developed , but also to other programs .</c>
+		<d>With the Screen Painter screens can be created for a transaction and defined with the help of picture elements and designed.</d>
+	
+	<cor>B D</cor>
+</f>
+<f>
+	<tit>80 What is the ABAP debugger?</tit>
+	
+		<a>The debugger makes it easier for you to comply with the ABAP layout guidelines.</a>
+		<b>Can be used as a testing tool for debugging the source code of an ABAP program .</b>
+		<c>Is a tool to run the ABAP program line by line or section by section .</c>
+		<d>Set and clear breakpoints and watchpoints are functions of the debugger.</d>
+	
+	<cor>B C D</cor>
+</f>
+<f>
+	<tit>81 In what context a Tables statement can not be used ?</tit>
+	
+		<a>as a general statement part</a>
+		<b>the exchange of information with screens and ABAP programs</b>
+		<c>not at all</c>
+		<d></d>
+	
+	<cor>B</cor>
+</f>
+<f>
+	<tit>82 The GUI - status consists of ....</tit>
+	
+		<a>toolbar</a>
+		<b>message Bar</b>
+		<c>Function Keys</c>
+		<d>Toolbar</d>
+	
+	<cor>A C D</cor>
+</f>
+<f>
+	<tit>83 ABAP - instruction</tit>
+	
+		<a>set titlebar -> creates a screen title , The basis here is the info of the jew screens</a>
+		<b>SET - PF Status -> is an obsolete statement from a time because you still PF - keys had</b>
+		<c>Set titlebar -> sets a pre-defined screen title , should always be done before any output screens</c>
+		<d>All tosh , we should only be tricked into such instructions do not exist in ABAP</d>
+	
+	<cor>C</cor>
+</f>
+<f>
+	<tit>84 In what context a Tables statement can not be used ?</tit>
+	
+		<a>as a general statement part</a>
+		<b>the exchange of information with screens and ABAP programs</b>
+		<c>not at all</c>
+		<d></d>
+	
+	<cor>B</cor>
+</f>
+<f>
+	<tit>85 The instruction TOP INCLUDE</tit>
+	
+		<a>is needed to ensure that the DATA field can be read</a>
+		<b>causes the source code is distributed to several units</b>
+		<c>is not recommended in the Dynproentwickling</c>
+		<d></d>
+	
+	<cor>B</cor>
+</f>
+<f>
+	<tit>86 What are Standardynpros</tit>
+	
+		<a>100</a>
+		<b>1000</b>
+		<c>SE38</c>
+		<d>all</d>
+	
+	<cor>B</cor>
+</f>
+<f>
+	<tit>87 Screen sequence control. Which statements are correct?</tit>
+	
+		<a>BPO receives referrals are processed in preparation for the Dynproanzeige on processing blocks</a>
+		<b>PIA receives referrals are processed in response to Use rank level on processing blocks</b>
+		<c>PBO and PAI are processes that come with screens to control the use</c>
+		<d>none of the above statement</d>
+	
+	<cor>C</cor>
+</f>
+<f>
+	<tit>88 Among the interfaces of a function block</tit>
+	
+		<a>import</a>
+		<b>export</b>
+		<c>Changing</c>
+		<d>exceptions</d>
+	
+	<cor>A B C D</cor>
+</f>
+<f>
+	<tit>89 What Global types are stored in the ABAP Dictionary ?</tit>
+	
+		<a>Data element and structure</a>
+		<b>Transparent table</b>
+		<c>table type</c>
+		<d>Screen type</d>
+	
+	<cor>D</cor>
+</f>
+<f>
+	<tit>90 A statement is subject to certain rules. Which one?</tit>
+	
+		<a>The first two words are to be interpreted as a keyword</a>
+		<b>A statement is terminated by a point</b>
+		<c>In chain sets the bowl word must be separated by a colon</c>
+		<d>For instructions is not case -sensitive</d>
+	
+	<cor>B C D</cor>
+</f>
+<f>
+	<tit>91 Which statement about ABAP are correct?</tit>
+	
+		<a>is typed</a>
+		<b>is plattformabhngig</b>
+		<c>is backward compatible</c>
+		<d>is upward compatible</d>
+	
+	<cor>A D</cor>
+</f>
+<f>
+	<tit>92 Statements on the subject HOTSPOT</tit>
+	
+		<a>Hotspots are special areas of an output list</a>
+		<b>To output areas as a hotspot , use the Format - Statement</b>
+		<c>The addition HOTSPOT ON has no effect if the same option INPUT is set to ON .</c>
+		<d>To identify fields at runtime as a hotspot , you would write : LOOP = HOTSPOT &lt;h&gt; .</d>
+	
+	<cor>A B C</cor>
+</f>
+<f>
+	<tit>93 Which of the following data is referred to as semantic information about a data element ?</tit>
+	
+		<a>Field name ( text to display next to the field on a screen or selection screens ) .</a>
+		<b>Search help ( F4 or icon callable value help for the user) .</b>
+		<c>technical field information (data type , length, and number of decimal places , if necessary, of the field</c>
+		<d>Field documentation ( F1 callable statements on the nature of the information in this box ) .</d>
+	
+	<cor>A B D</cor>
+</f>
+<f>
+	<tit>94 The surface of a screen consists of the following elements</tit>
+	
+		<a>The menu bar , which contains a pull down menu.</a>
+		<b>The toolbar that contains the same standard push buttons for frequently used functions.</b>
+		<c>The title bar that contains the title of the current screen image ( GUI title ) .</c>
+		<d>The status bar, which can be controlled directly only in the screens .</d>
+	
+	<cor>A B C</cor>
+</f>
+<f>
+	<tit>95 Which statement about the System and Help menus is correct? ( Questions about BC 400)</tit>
+	
+		<a>The System and Help menus are included on all screens of the SAP system with identical functions.</a>
+		<b>The menu system can not be changed or hidden.</b>
+		<c>The Help menu may change at any and deposit with additional information.</c>
+		<d></d>
+	
+	<cor>A B</cor>
+</f>
+<f>
+	<tit>96 GUI title or GUI status right?</tit>
+	
+		<a>Menu bar, toolbar , application toolbar, and function key assignment together form a GUI status.</a>
+		<b>The ABAP statements TITLEBAR SET and SET PF-STATUS are able GUI title or raise GUI status.</b>
+		<c>With ABAP statements OPEN OPEN TITLEBAR and PF- STATUS, you can also appeal GUI title or GUI status.</c>
+		<d>GUI title contains the title of the current screen image and the title in the status bar.</d>
+	
+	<cor>A B</cor>
+</f>
+<f>
+	<tit>97 The basic objects for data definition in the ABAP Dictionary are</tit>
+	
+		<a>table</a>
+		<b>domain</b>
+		<c>data element</c>
+		<d>box</d>
+	
+	<cor>A B C</cor>
+</f>
+<f>
+	<tit>98 Within loops may , inter alia, the statement CHECK occur . Which of the statements is true ?</tit>
+	
+		<a>If the specified required at check condition is true the loop is exited</a>
+		<b>If the specified in CHECK condition is false, the loop is exited .</b>
+		<c>If the specified in CHECK condition is satisfied, then the check statement has no effect</c>
+		<d>If the specified in CHECK condition is not satisfied , then the statements that appear between CHECK and the ENDDO or ENDWHILE statements executed exactly once , before the loop continues</d>
+	
+	<cor>B</cor>
+</f>
+<f>
+	<tit>99 to access the data of an internal table , various options are available Which statements about access methods to meet?</tit>
+	
+		<a>In the rows of a hashed table can be most efficiently accessed using the table index</a>
+		<b>In the rows of a standard table can be used selectively using the table index or by key fields to access</b>
+		<c>For the reading of all lines of an internal table , the programmer needs an index, it must define and manage themselves</c>
+		<d>For a hash - table applies : The statement READ TABLE &lt;itab&gt; into &lt;w&gt; INDEX &lt;tabix&gt; reads exactly one line corresponds to the value &lt;tabix&gt; field whose index number</d>
+	
+	<cor>B</cor>
+</f>
+<f>
+	<tit>100 In an ABAP program, the following source code fragment is included : DATA: A TYPE I, B , C TYPE P. What data type does the data object ( variable) B ? ( Questions about BC 400)</tit>
+	
+		<a>I</a>
+		<b>C</b>
+		<c>P</c>
+		<d>no concrete , the data type is determined only by the first assignment</d>
+	
+	<cor>B</cor>
+</f>
+<f>
+	<tit>101 In an ABAP program, a data object A was defined as : DATA: A TYPE P DECIMAL 2 There is another data object B be stipulated which should have the same type of characteristics as the data object A . Which of the following statements is this possible? ( BC405 ) ( questions about BC 400)</tit>
+	
+		<a>DATA: TYPE B P DECIMAL 2</a>
+		<b>DATA: B TYPE A</b>
+		<c>DATA: B LIKE A</c>
+		<d>DATA : B. B = A</d>
+	
+	<cor>A C</cor>
+</f>
+<f>
+	<tit>102 A loop to iterate exactly three times. Which of the following looping constructs does this ? ( Questions about BC 400)</tit>
+	
+		<a>DO 3 TIMES . ....... ENDDO .</a>
+		<b>DO. ........... IF SY- INDEX = 3 EXIT . ENDIF . ENDDO .</b>
+		<c>DO. .......... CHECK: SY- INDEX = 3 ... ENDDO .</c>
+		<d>WHILE SY -INDEX &lt; = 3 ...... ENDWHILE .</d>
+	
+	<cor>A B D</cor>
+</f>
+<f>
+	<tit>103 Which data type is used for accurate calculations in ABAP ? ( Questions about BC 400)</tit>
+	
+		<a>F</a>
+		<b>I</b>
+		<c>P</c>
+		<d>Double -precision</d>
+	
+	<cor>C</cor>
+</f>
+<f>
+	<tit>104 Right? ( Questions about BC 400)</tit>
+	
+		<a>The ABAP programming language is designed for business issues</a>
+		<b>ABAP programs are related to the SAP Basis virtually unlimited compatible</b>
+		<c>ABAP contains a set of commands called OPEN SQL for database access</c>
+		<d></d>
+	
+	<cor>A B C</cor>
+</f>
+<f>
+	<tit>105 Right? ( Questions about BC 400)</tit>
+	
+		<a>WRITE returns the contents of a field or a literal of the correct type .</a>
+		<b>SKIP generates blank lines</b>
+		<c>The list header always contains the date and page number.</c>
+		<d>For a list List title and up to four lines for column headings can be entered .</d>
+	
+	<cor>A B D</cor>
+</f>
+<f>
+	<tit>106 Right? ( Questions about BC 400)</tit>
+	
+		<a>A type group is a technique for defining data types that should be used system-wide.</a>
+		<b>Structured fields within the program as field strings in an ABAP program and be globally defined as structures in the ABAP Dictionary.</b>
+		<c>Own data types are used mainly to define structured data objects.</c>
+		<d>Complex data types can be as opposed to structured fields only defined within the program .</d>
+	
+	<cor>A B C</cor>
+</f>
+<f>
+	<tit>107 Right? ( Questions about BC 400)</tit>
+	
+		<a>With the parameter LIKE a field is inherited the structure and the type of the reference field</a>
+		<b>With the parameter LIKE a field is inherited the structure and the type of the reference type.</b>
+		<c>With the TYPE parameter a field is inherited the structure and the type of the reference field .</c>
+		<d>LIKE may be used in the type definition TYPES .</d>
+	
+	<cor>A D</cor>
+</f>
+<f>
+	<tit>108 Right? ( Questions about BC 400)</tit>
+	
+		<a>CLEAR initializes a field either its type-specific initial value , or with the initial value specified by VALUE .</a>
+		<b>CLEAR &lt;feldleiste&gt; initialize the individual fields of &lt;feldleiste&gt; with their type-specific initial values.</b>
+		<c>CLEAR &lt;feldleiste&gt; fills the field with &lt;feldleiste&gt; Spaces .</c>
+		<d></d>
+	
+	<cor>B</cor>
+</f>
+<f>
+	<tit>109 Which of the following assignments is syntactically correct : ( questions about BC 400)</tit>
+	
+		<a>a = ( b + exp ( c ) ) * e &#8260; sin (3- g).</a>
+		<b>A = (B + exp (- C)) E * &#8260; sin (3 - g).</b>
+		<c>A = (B + exp (- C)) E * &#8260; sin (3 - g)</c>
+		<d>A = (B + exp (- C)) E * &#8260; sin (3 - g)</d>
+	
+	<cor>B</cor>
+</f>
+<f>
+	<tit>110 As the system processes the data content of type date ?</tit>
+	
+		<a>If a date field assigned a numeric field , as calculated ABAP the number of days since 1/1/1900 .</a>
+		<b>Values ??of date fields are converted to numerical values ??before a calculation operation .</b>
+		<c>When assigning to a date field , a numeric value is interpreted as a number of days since 1/1/1900 .</c>
+		<d>If a date field assigned a numeric field , as calculated ABAP the number of days since 1/1/0001</d>
+	
+	<cor>B D</cor>
+</f>
+<f>
+	<tit>111 The system field , in which the system stores the current through the loop is called ?</tit>
+	
+		<a>SY- loop</a>
+		<b>SY- Index</b>
+		<c>SY- TABIX</c>
+		<d>SY- LISEL</d>
+	
+	<cor>B</cor>
+</f>
+<f>
+	<tit>112 Right?</tit>
+	
+		<a>Is CHECK specified within a loop and does not meet the logical expression , then the following statements are not executed and continued after the end of the loop ( enddo statement after ) for the current iteration.</a>
+		<b>If a CHECK condition within a subroutine outside a loop current is not fulfilled, this leads to the termination of the subroutine.</b>
+		<c>If a CHECK statement outside of a loop or a subroutine in an event and the logical expression is not satisfied, then the following instructions of the current event will not be executed , the event is finished.</c>
+		<d></d>
+	
+	<cor>B C</cor>
+</f>
+<f>
+	<tit>113 Which of the following instructions or instruction sequences within a LOOP interrupts the current through the loop from the condition &lt;condition&gt; and continues processing with the next time through the loop ?</tit>
+	
+		<a>IF &lt;condition&gt; . EXIT . ENDIF .</a>
+		<b>CHECK NOT &lt;condition&gt; .</b>
+		<c>IF &lt;condition&gt; . RETURN. ENDIF .</c>
+		<d>IF &lt;condition&gt; . LEAVE . ENDIF .</d>
+	
+	<cor>B</cor>
+</f>
+<f>
+	<tit>114 Right?</tit>
+	
+		<a>In the ABAP Editor is used with the function Tools - > Set Breakpoints > Set breakpoints. They are valid until they are deleted , or until you log off .</a>
+		<b>Breakpoints can be written using the ABAP statement BREAK -POINT directly in the source code.</b>
+		<c>In the debugger, breakpoints can be set and clear a double click.</c>
+		<d>A watchpoint is a breakpoint that is set in response to a changed field contents.</d>
+	
+	<cor>A B C D</cor>
+</f>
+<f>
+	<tit>115 Right?</tit>
+	
+		<a>ABAP knows internal tables with or without headers. The header provides the interface to the program. Read and write data always goes over the header. For internal tables without header line is a field string must be present, which takes over the function of the header. ( Field - symbol please do not consider that)</a>
+		<b>The maximum table size of an internal table can be specified with the parameter INITIAL SIZE .</b>
+		<c>The APPEND statement is used to append the data from the header at the end of the table . If the table is already full , it will be dynamically expanded .</c>
+		<d>The use of the parameter INITIAL SIZE &lt;n&gt; ensures that the memory is allocated initially in the internal table suitable for n table rows.</d>
+	
+	<cor>A C D</cor>
+</f>
+<f>
+	<tit>116 To create the data object of an internal table in a program. Which predefined table types you can use ?</tit>
+	
+		<a>Standard Table</a>
+		<b>Index Table</b>
+		<c>Hashed Table</c>
+		<d>Any Table</d>
+	
+	<cor>a c</cor>
+</f>
+<f>
+	<tit>117 The table type of an internal table is defined by</tit>
+	
+		<a>The order of key fields</a>
+		<b>The header</b>
+		<c>The initial memory area of ??the table</c>
+		<d>The table type</d>
+	
+	<cor>a d</cor>
+</f>
+<f>
+	<tit>118 right? ( Questions about BC 400)</tit>
+	
+		<a>If an internal table is declared without an explicit key , it still has the so-called default key.</a>
+		<b>The default key of an internal table consisting of all character fields .</b>
+		<c>The default key of an internal table is analogous to the primary key of a database table at the beginning of the line and consists of all non- numeric fields. He ends with the first field of type P, I, F.</c>
+		<d>An internal table knows no default key.</d>
+	
+	<cor>A B</cor>
+</f>
+<f>
+	<tit>119 right? ( Questions about BC 400)</tit>
+	
+		<a>The COLLECT statement can be used for summation . Here, all numeric fields in the work area to the corresponding fields of the row are added up in the body of the table whose data content in all non - numeric fields match the content of the work area .</a>
+		<b>When using the COLLECT statement , all non-key fields of the internal table must be numeric.</b>
+		<c>The SORT statement sorts an internal table. If no sort criterion is specified, the table is sorted by all fields except the fields of type P , I, or F .</c>
+		<d>With the addition BY &lt;fieldname&gt; sorting can be restricted to certain fields</d>
+	
+	<cor>A B C D</cor>
+</f>
+<f>
+	<tit>120 The loop LOOP AT ITAB ... ENDLOOP runs sequentially read by a standard internal table. Is there an ABAP statement , directly a specific table row can be placed in a workspace with the . What is the ABAP statement directly to the 4th Line of ITAB accesses ? ( Questions about BC 400)</tit>
+	
+		<a>READ TABLE itab INTO wa INDEX 4</a>
+		<b>SELECT * FROM itab ....</b>
+		<c>LOOP AT itab FROM 4 to 4 .......</c>
+		<d></d>
+	
+	<cor>A C</cor>
+</f>
+<f>
+	<tit>121 What is the name the system field that when looping through an internal table LOOP ... ENDLOOP contains the index of the current table row ? ( Questions about BC 400)</tit>
+	
+		<a>SY- TABANZ</a>
+		<b>SY- SUBRC</b>
+		<c>SY- INDEX LIST</c>
+		<d>SY- TABIX</d>
+	
+	<cor>D</cor>
+</f>
+<f>
+	<tit>122 If the internal table is without header line . Which is it ? ( Questions about BC 400)</tit>
+	
+		<a>The statement CLEAR ITAB initializes the work area of ITAB</a>
+		<b>The statement CLEAR ITAB initializes the table</b>
+		<c>The statement REFRESH ITAB initializes all table rows. The memory of ITAB is not released.</c>
+		<d>The statement deletes the table ITAB FREE and gives the memory area .</d>
+	
+	<cor>B C D</cor>
+</f>
+<f>
+	<tit>123 What are the properties of internal tables are correct? ( Questions about BC 400)</tit>
+	
+		<a>On internal standard table can only be accessed using the index.</a>
+		<b>On SORTED TABLES with a unique key can only be accessed with a key.</b>
+		<c>In Hashed TABLES can only use the table key are accessed</c>
+		<d>In SORTED TABLES the property of the key can be selected.</d>
+	
+	<cor>C D</cor>
+</f>
+<f>
+	<tit>124 Which statements are not allowed for internal tables of the type SORTED ? ( Questions about BC 400)</tit>
+	
+		<a>APPEND</a>
+		<b>INSERT</b>
+		<c>SORT</c>
+		<d>READ</d>
+	
+	<cor>AC</cor>
+</f>
+<f>
+	<tit>125 Which type of table you use , if your program accesses the internal table only with key ? ( Questions about BC 400)</tit>
+	
+		<a>hashed</a>
+		<b>Sorted</b>
+		<c>standard</c>
+		<d>any</d>
+	
+	<cor>A</cor>
+</f>
+<f>
+	<tit>126 What is the internal table by using the SELECT -OPTIONS statement LAND FOR LFA1 - LAND1 . is automatically defined ? ( Questions about BC 400)</tit>
+	
+		<a>LAND1</a>
+		<b>LFA1</b>
+		<c>COUNTRY</c>
+		<d>LFA1 - LAND1</d>
+	
+	<cor>C</cor>
+</f>
+<f>
+	<tit>127 Right? ( Questions about BC 400)</tit>
+	
+		<a>An I in the column SIGN of a selection table does include.</a>
+		<b>An E in column SIGN of a selection table means Exclude .</b>
+		<c>The selection set is composed of all Includes Excludes without the .</c>
+		<d></d>
+	
+	<cor>A B</cor>
+</f>
+<f>
+	<tit>128 Right? ( Questions about BC 400)</tit>
+	
+		<a>In the selection screen , a single value can be entered for each parameter .</a>
+		<b>In the selection screen can be per selection criterion single values ??or intervals enter .</b>
+		<c>By default, comes to the selection screen as text the name of the parameter or selection criterion for display. This name can be up to 30 characters as a field name .</c>
+		<d>About text elements -> Selection Texts Can be language dependent of the text to be displayed for the parameter or selection criteria maintain.</d>
+	
+	<cor>A B D</cor>
+</f>
+<f>
+	<tit>129 In the ABAP Dictionary can be allowed for a table buffering. Despite the set buffering can handle SELECT the buffer and read directly from the database . These extended to the SELECT statement with the addition : ( questions about BC 400)</tit>
+	
+		<a>BYPASSING BUFFER</a>
+		<b>BYPASS BUFFER</b>
+		<c>SELECT DISTINCT</c>
+		<d></d>
+	
+	<cor>A C</cor>
+</f>
+<f>
+	<tit>130 Right? ( Questions about BC 400)</tit>
+	
+		<a>ABAP contains at standard SQL ajar for instructions on accessing the database.</a>
+		<b>Use SELECT to open SQL database interface tables can be evaluated using the ABAP. SELECT takes you through and authorization checks.</b>
+		<c>OPEN SQL DML includes the share of standard SQL , which serves to modify data to read or</c>
+		<d>NATIVE SQL is not passed on to the R/3-Datenbankschnittstelle , but directly to the underlying database .</d>
+	
+	<cor>A C D</cor>
+</f>
+<f>
+	<tit>131 right? ( Questions about BC 400)</tit>
+	
+		<a>Function blocks are located in a central function library and a functional group assigned .</a>
+		<b>You have a clearly defined interface with IMPORT EXPORT parameters. It can optional parameters are defined.</b>
+		<c>One gives the name of the function module and function group to their call .</c>
+		<d>The supply optional parameters by special additives the CALL FUNCTION statement</d>
+	
+	<cor>A B</cor>
+</f>
+<f>
+	<tit>132 Right? ( Questions about BC 400)</tit>
+	
+		<a>Which authorization check is performed is decided by the system administrator</a>
+		<b>For fields that should remain unchecked , the value DUMMY is specified.</b>
+		<c>With an authorization check, the system checks whether the user of a program over its master record , the authorization has</c>
+		<d>During the authorization check in the program the authorization object to validate against , all fields of the object and a value must be specified for each field .</d>
+	
+	<cor>B CD</cor>
+</f>
+<f>
+	<tit>133 What is the easiest way to calling a function module to integrate into a code ? ( Questions about BC 400)</tit>
+	
+		<a>Pushbutton pattern in the editor and locate the FB using the input help .</a>
+		<b>Double-click on the CALL keyword .</b>
+		<c>&lt;F1&gt; On the CALL keyword</c>
+		<d>&lt;F4&gt; On the CALL keyword</d>
+	
+	<cor>A</cor>
+</f>
+<f>
+	<tit>134 They want to develop an application that reads data from the SAP database. Because the application is run-time critical , you want as much as possible to use table indexes to improve the runtime of the application . Which statement is true ? ( Questions about BC 400)</tit>
+	
+		<a>The client field must be not explicitly listed in a secondary index because it is automatically inserted by the database interface</a>
+		<b>Each table has exactly one primary index</b>
+		<c>An index should be composed of only a few fields , because with each change operation , which also include fields in the index , it must be updated.</c>
+		<d>The more secondary indexes you create , the more likely it is that the database uses an appropriate index for the database access</d>
+	
+	<cor>B C</cor>
+</f>
+<f>
+	<tit>135 You want to develop a complex application purpose you want to use function modules to modularize the functionality. Which statements are function blocks are correct? ( BC402 ) ( questions about BC 400)</tit>
+	
+		<a>In functional groups subroutines can be defined that can be called within the function group.</a>
+		<b>In function group global data can be definiertt</b>
+		<c>From a FB you can conduct dialogue , send particular no screen</c>
+		<d>Function blocks can only be created in function groups</d>
+	
+	<cor>A B D</cor>
+</f>
+<f>
+	<tit>136 What is the advantage shared objects compared to IMPORT / EXPORT to shared memory / buffer ( BC402 ) ( questions about BC 400)</tit>
+	
+		<a>Data in Shared Objects areas can be accessed free copy</a>
+		<b>In areas of shared objects in principle , more data can be gespeichet , as in the shared memory / buffer</b>
+		<c>In Shared Objects areas braids of Object references can be stored</c>
+		<d>Data in Shared Objects areas are compressed</d>
+	
+	<cor>A C</cor>
+</f>
+<f>
+	<tit>137 What are functional groups ?</tit>
+	
+		<a>Encapsulation of screens</a>
+		<b>Framework Programme for function blocks</b>
+		<c>Access provision of global data on all the FB function group</c>
+		<d>All wrong</d>
+	
+	<cor>A B C</cor>
+</f>
+<f>
+	<tit>138 What is true for parameters of a subroutine ?</tit>
+	
+		<a>Local fields must have the same name as global , without causing conflicts.</a>
+		<b>Formal parameters are local fields .</b>
+		<c>Fields that are declared with DATA in the subroutine are created and initialized only at the first call of the subroutine.</c>
+		<d>Fields that are declared with DATA in the subroutine are created and initialized each time the subroutine.</d>
+	
+	<cor>A B D</cor>
+</f>
+<f>
+	<tit>139 In a program A is a function module F is called from the function group G for the first time . Which of the following statements is correct ?</tit>
+	
+		<a>The code for the entire function group G is added loaded in the roll area .</a>
+		<b>The global data of A are accessible in F .</b>
+		<c>A and F have shared workspaces for dictionary tables .</c>
+		<d>The function block F is executed in its own internal session.</d>
+	
+	<cor>A</cor>
+</f>
+<f>
+	<tit>140 Right?</tit>
+	
+		<a>The communication between the main program and subprogram can be done via parameters. With the agreement of a subroutine you define actual parameters. When you call a subroutine , you specify the formal parameters .</a>
+		<b>The assignment of Current -to formal parameters is depending on position , their number must match .</b>
+		<c>Input parameters are passed as call by value , output parameters and call by reference or call by value and result .</c>
+		<d></d>
+	
+	<cor>B C</cor>
+</f>
+<f>
+	<tit>141 Right?</tit>
+	
+		<a>For elementary fields applies : If no typing of the formal parameter is made in the subprogram , the formal parameters inherit the type and length of the actual parameters .</a>
+		<b>Be passed structures, or tables without typing the formal parameter , there is in the subroutine no way to access individual fields of the structure or the table</b>
+		<c>If the types of actual parameters not compatible with that of the formal parameter , the system responds with a runtime error .</c>
+		<d></d>
+	
+	<cor>A B</cor>
+</f>
+<f>
+	<tit>142 Which is it for the interface of a function module ?</tit>
+	
+		<a>When calling function modules parameter mapping takes the form : Actual = formal parameter</a>
+		<b>The importance of import and export when calling a function block and function block must be in each case from the standpoint of the calling program or function module from .</b>
+		<c>Basic fields of the interface of the FB can , structures and table parameters must be typed</c>
+		<d>Export parameters ( from the perspective of the FB ) are always optional</d>
+	
+	<cor>B C D</cor>
+</f>
+<f>
+	<tit>143 How do you find information about a ABAP-4 Schlusselwort ?</tit>
+	
+		<a>Place the cursor on the keyword in your program and press the F1 key.</a>
+		<b>Enter the command `h &lt;keyword&gt; ` in the command line.</b>
+		<c>Place the cursor on the keyword and press the F4 key.</c>
+		<d>Place the cursor on the keyword and select in the menu bar the menu `Help`</d>
+	
+	<cor>A</cor>
+</f>
+<f>
+	<tit>144 Which statements about the authorization concept are correct?</tit>
+	
+		<a>An authorization contains values ??for the fields of an authorization object.</a>
+		<b>A permission defines the fields for a combined authorization check.</b>
+		<c>Permissions can be grouped into profiles.</c>
+		<d>The authorization check in the program always refers to a specific permission .</d>
+	
+	<cor>A C</cor>
+</f>
+<f>
+	<tit>145 Which statement inside a loop, the loop is terminated and processing continues after the end of the loop ?</tit>
+	
+		<a>leave</a>
+		<b>exit</b>
+		<c>return</c>
+		<d>continue</d>
+	
+	<cor>B</cor>
+</f>
+<f>
+	<tit>146 How often is processed by the following statement MOVE ? MOVE TO a : b , c, d, e</tit>
+	
+		<a>4 times</a>
+		<b>1 times</b>
+		<c>5 times</c>
+		<d>no times</d>
+	
+	<cor>A</cor>
+</f>
+<f>
+	<tit>147 You want to transfer itab optimize run-time records in a DB TAB in an internal table. Which statement alternative do you use?</tit>
+	
+		<a>Select * from &lt;dbtab&gt; INTO TABLE &lt;itab&gt; .</a>
+		<b>Select * from &lt;dbtab&gt; INTO TABLE &lt;itab&gt; WHERE ....</b>
+		<c>Select * from &lt;dbtab&gt; WHERE .... MOVE -CORRESPONDING TO &lt;dbtab&gt; &lt;itab&gt; . APPEND &lt;itab&gt; . ENDSELECT .</c>
+		<d>LOOP AT &lt;dbtab&gt; WHERE .... MOVE -CORRESPONDING TO &lt;dbtab&gt; &lt;itab&gt; . APPEND &lt;itab&gt; . ENDLOOP .</d>
+	
+	<cor>B</cor>
+</f>
+<f>
+	<tit>148 Which of the types of access to a database table are correct?</tit>
+	
+		<a>Single record access : SELECT SINGLE ....... It is read only one record .</a>
+		<b>SELECT loop : SELECT ... ENDSELECT . Are transported all the records of the table of the database to the application server . The program receives within the loop of the run -time system but only the records that matches the WHERE clause correspond .</b>
+		<c>SELECT loop : SELECT .... ENDSELECT . There are transported to the application server only the records in the table from the database that match the WHERE clause.</c>
+		<d>Fetch ARRAY : SELECT ..... INTO TABLE itab. All records of the WHERE clause are transported directly into an internal table .</d>
+	
+	<cor>A C D</cor>
+</f>
+<f>
+	<tit>149 What is the value field symbol &lt;f1&gt; after the following operations ? FIELD-SYMBOLS : &lt;f1&gt; &lt;f2&gt; . DATA: text1 (6) text2 (10 ) VALUE ' ABCDEFGHIJ ' . ASSIGN TO text1 &lt;f1&gt; . ASSIGN text2 +2 ( 7) TO &lt;f2&gt;. &lt;f1&gt;= &lt;f2&gt; .</tit>
+	
+		<a>ABCDEFGHIJ</a>
+		<b>ABCDEF</b>
+		<c>CDEFGH</c>
+		<d>CDEFGHI</d>
+	
+	<cor>C</cor>
+</f>
+<f>
+	<tit>150 Which statements are correct for hashed tables? Several statements are correct.</tit>
+	
+		<a>A hashed table can be filled with Collect</a>
+		<b>A hashed table can be defined without a key</b>
+		<c>A hashed table can be sorted</c>
+		<d>A hashed table can LOOP .... ENDLOOP . be processed.</d>
+	
+	<cor>A C D</cor>
+</f>
+<f>
+	<tit>151 What is the result in the following program ? ( BC400 ) DATA : f1 TYPE i VALUE 2 , f2 TYPE i VALUE 4 PERFORM USING upro f1 f2. WRITE: / f1, f2. Upro FORM USING VALUE ( p_f1 ) CHANGING VALUE ( p_f2 ) . p_f2 = 3 p_f1 = p_f2 * p_f1 . ENDFORM . ( Questions about BC 400)</tit>
+	
+		<a>6 3</a>
+		<b>2 3</b>
+		<c>6 4</c>
+		<d>2 4</d>
+	
+	<cor>B</cor>
+</f>
+<f>
+	<tit>152 What is the correct output ? ( BC400 ) DATA : line (9 ) TYPE c VALUE '123456789 ' , start TYPE I VALUE 2 , length TYPE I VALUE 5 FIELD-SYMBOLS : &lt;fs&gt; . ASSIGN line + start ( length) TO &lt;fs&gt; . &lt;fs&gt; = line . WRITE: / &lt;fs&gt; , line . ASSIGN TO &lt;fs&gt; line . ( Questions about BC 400)</tit>
+	
+		<a>12345</a>
+		<b>ABCDE</b>
+		<c>123456789</c>
+		<d>ABCDEFGHI</d>
+	
+	<cor>A</cor>
+</f>
+<f>
+	<tit>153 The field N of the internal table ITAB contains values ??in the following order : 3 4 7 8 9 What is the value A to exit the loop? CLEAR LOOP AT ITAB into A. NUMBER . CHECK NE 7 A = A + number . IF NUMBER = 9 EXIT . ENDIF . ENDLOOP .</tit>
+	
+		<a>0</a>
+		<b>7</b>
+		<c>9</c>
+		<d>16</d>
+	
+	<cor>D</cor>
+</f>
+<f>
+	<tit>154 Which of the following statements are true ?</tit>
+	
+		<a>ABAP - programs may not native - contain SQL</a>
+		<b>OPEN - SQL - commands allow access to data - independent of the installed database system</b>
+		<c>Statement automatically restarted when the database system changes - The database interface translates Native SQL</c>
+		<d>The database interface translates OPEN SQL in database- dependent SQL</d>
+	
+	<cor>B D</cor>
+</f>
+<f>
+	<tit>155 Which of the following subroutines are correct?</tit>
+	
+		<a>Actual parameters are specified when calling the subroutine</a>
+		<b>The number of formal and actual for a subprogram may differ from each other</b>
+		<c>Actual and formal parameters are position independent</c>
+		<d>Internal tables can be passed by USING</d>
+	
+	<cor>A D</cor>
+</f>
+<f>
+	<tit>156 Which statements are true the following statement is correct ? SELECT CARRID CONNID AIRPFROM AIRPTO FLTYPE INTO RECORD FROM SPFLI ORDER BY CARRID . WRITE ...... ENDSELECT .</tit>
+	
+		<a>All rows from the table SPFLI be read</a>
+		<b>The field string SET must consist of exactly 5 fields that match in type, order, and name exactly the columns of the projection</b>
+		<c>The database table SPFLI sorting by CARRID field</c>
+		<d>The WRITE - statement is no longer triggered if no rows from SPFLI could be read more</d>
+	
+	<cor>A D</cor>
+</f>
+<f>
+	<tit>157 You want to perform a test input for a selection screen . What event are you using?</tit>
+	
+		<a>AT LINE -SELECTION</a>
+		<b>AT SELECTION -SCREEN</b>
+		<c>AT CHECK- INPUT</c>
+		<d></d>
+	
+	<cor>B</cor>
+</f>
+<f>
+	<tit>158 To access the data in an internal table , various options are available . Which of the following statements about these access opportunities to meet ?</tit>
+	
+		<a>On the lines of an internal table of type TABLE HASHED can be accessed most efficiently using the table index</a>
+		<b>On the lines of a STANDARD TABLE can be used selectively using the table index or the key fields of access</b>
+		<c>The statement LOOP AT &lt;itab&gt; . ENDLOOP . provides access to all stored in &lt;itab&gt;</c>
+		<d>The statement READ TABLE INTO &lt;itab&gt; &lt;wa&gt; INDEX &lt;tabix&gt; reads exactly one row whose index number is the value in the variable &lt;tabix&gt; .</d>
+	
+	<cor>B C D</cor>
+</f>
+<f>
+	<tit>159 When calling subroutines ......</tit>
+	
+		<a>need not be specified in the same order actual and formal parameters</a>
+		<b>can the actual parameters are omitted. They are optional .</b>
+		<c>be only the addresses of the parameters passed</c>
+		<d>formal parameters of a data type can be assigned</d>
+	
+	<cor>D</cor>
+</f>
+<f>
+	<tit>160 Which of the following statements are correct SQL ? ( Questions about BC 400)</tit>
+	
+		<a>With OPEN SQL may not hold the full functionality of DB are used</a>
+		<b>OPEN SQL must not be used for buffered tables</b>
+		<c>One advantage of Open SQL is that it can be used database-specific</c>
+		<d>One advantage of Open SQL is that it can be used independent of the database</d>
+	
+	<cor>A D</cor>
+</f>
+<f>
+	<tit>161 Which statements OPEN SQL is true?</tit>
+	
+		<a>With OPEN SQL , SAP offers the option of using a vendor-independent language standard from ABAP - access programs out on the database</a>
+		<b>Open SQL is congruent with ANSI - SQL ( Level II).</b>
+		<c>Instructions from the voice of stock OPEN SQL run on any RDBMS , SQL - can handle standard operating procedures.</c>
+		<d>OPEN SQL - statements access the database tables , bypassing the ABAP Dictionary to</d>
+	
+	<cor>A</cor>
+</f>
+<f>
+	<tit>162 Internal tables</tit>
+	
+		<a>must be defined in the Dictionary</a>
+		<b>can not be nested</b>
+		<c>can be passed to the function blocks</c>
+		<d>are usually processed with a work area</d>
+	
+	<cor>C D</cor>
+</f>
+<f>
+	<tit>163 Which statements are correct ?</tit>
+	
+		<a>After the release of the order copies of the repository - objects exported to the central transport directory . The import into the target system is not automatic , but is triggered by the sysadmin .</a>
+		<b>After the release of the request copies of the repository objects are exported to the central transport directory . The import into the target directory is automatic. The developer finally checked the import logs .</b>
+		<c>An object is in exactly one system only. All the other systems possibly contain copies of this object.</c>
+		<d>An SAP own repository object is original in the system , which was installed as a production system for the customer. All other systems contain copies of this object.</d>
+	
+	<cor>A C</cor>
+</f>
+<f>
+	<tit>164 On screens, tables can be represented by the following means ..</tit>
+	
+		<a>Object INTERNAL DYNPRO -TABLE</a>
+		<b>Table - Controls</b>
+		<c>BAPIs</c>
+		<d>ALV Grit Controls</d>
+	
+	<cor>B D</cor>
+</f>
+<f>
+	<tit>165 You create a list of flight connections (Table SPFLI ) . The user should have the option to select by airlines (defined by the CARRID field) to meet for viewing. ( To Several criteria can be specified)</tit>
+	
+		<a>PARAMETERS OF UP LIKE SPFLI- CARRID</a>
+		<b>SELECT -OPTIONS LIKE S_CARRID WA_CARRID</b>
+		<c>SELECT -OPTIONS FOR SO_CAR WA_CARRID</c>
+		<d></d>
+	
+	<cor>C</cor>
+</f>
+<f>
+	<tit>166 What are the benefits ABAP modularization techniques?</tit>
+	
+		<a>avoid redundancy</a>
+		<b>scalability</b>
+		<c>clarity</c>
+		<d>reusability</d>
+	
+	<cor>A C D</cor>
+</f>
+<f>
+	<tit>167 From which part objects , there is a function module ?</tit>
+	
+		<a>source</a>
+		<b>documentation</b>
+		<c>exceptions</c>
+		<d>properties</d>
+	
+	<cor>A B C D</cor>
+</f>
+<f>
+	<tit>168 Which of the following statements about ABAP - programs are correct?</tit>
+	
+		<a>Programs must be assigned to a package or as local objects</a>
+		<b>When creating a program, the program type must be set</b>
+		<c>All types of programs are directly executable</c>
+		<d>Each program must be provided with a title</d>
+	
+	<cor>A B D</cor>
+</f>
+<f>
+	<tit>169 How the tables involved in a join are called ?</tit>
+	
+		<a>base tables</a>
+		<b>key tables</b>
+		<c>Pool tables</c>
+		<d>basic tables</d>
+	
+	<cor>A</cor>
+</f>
+<f>
+	<tit>170 Which of the following can a WHERE - clause contain ?</tit>
+	
+		<a>SELECT</a>
+		<b>IF</b>
+		<c>LOOP</c>
+		<d>CHECK</d>
+	
+	<cor>A C</cor>
+</f>
+<f>
+	<tit>171 Your program is defined with the SELECT -OPTIONS statement, a selection option called SO_NAME . which of the following statements uses this selection option correct?</tit>
+	
+		<a>SELECT * FROM ZPERS WHERE NAME = SO_NAME . ...... ENDSELECT .</a>
+		<b>SELECT * FROM WHERE NAME ZPERS EQ SO_NAME . ...... ENDSELECT .</b>
+		<c>SELECT * FROM WHERE NAME OF ZPERS SO_NAME . ...... ENDSELECT .</c>
+		<d>SELECT * FROM ZPERS WHERE NAME IN SO_NAME . ...... ENDSELECT .</d>
+	
+	<cor>D</cor>
+</f>
+<f>
+	<tit>172 Which of the following statements are true ?</tit>
+	
+		<a>Selection screens and lists are textually (using ABAP - instructions ) generated</a>
+		<b>A screen can be set so that the system only display of data</b>
+		<c>General screens can be created statically and textually</c>
+		<d>In conjunction with the dictionary can be done on screens consistency checks</d>
+	
+	<cor>A B D</cor>
+</f>
+<f>
+	<tit>173 You want to ensure that you can then exit a screen if not been all entries have been made correctly (eg invalid input and NEXT is a message of type ' E' output). which statements are true?</tit>
+	
+		<a>You need a function code of type E</a>
+		<b>A module must be provided with the AT EXIT -COMMAND</b>
+		<c>Pressing the Abort - buttons makes readily ensure that the program is aborted</c>
+		<d></d>
+	
+	<cor>A B</cor>
+</f>
+<f>
+	<tit>174 Which statements repository - objects are true?</tit>
+	
+		<a>You can search for objects in which you use the application hierarchy or the Repositoryinfosystem</a>
+		<b>About the Package Repository objects are connected to the correction and transport system</b>
+		<c>Repository objects are client-independent</c>
+		<d>Repository objects are client-dependent</d>
+	
+	<cor>A B C</cor>
+</f>
+</root>

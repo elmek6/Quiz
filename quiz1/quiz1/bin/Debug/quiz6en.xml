@@ -1,0 +1,279 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<root>
+<f>
+	<tit>1. You have newly joined a development team and your team member is developing a report. He wants to put the validation for the vendor No. In which event he should put the error message so that in case when wrong vendor is entered error message should appear and focus the cursor on that field.
+	</tit>
+		<a>A. Start-of-selection</a>
+		<b>B. End-of-selection</b>
+		<c>C. At selection screen on field</c>
+		<d>D. Initialization</d>
+	<cor>It boosted my confidence and the answer is C. At selection screen on field.
+	</cor>
+</f>
+<f>
+	<tit>2. Business want to change the F1 help for the field for all reports. At what level you will change so that it reflects for all places.	</tit>
+		<a>A. Domain</a>
+		<b>B. Data element</b>
+		<c>C. Change all table field</c>
+		<d>D. Code at selection screen on help-request in all the reports</d>
+	<cor>As data element store the schematic information, it can be used and the idea of changing the code of all reports with D option is useless. So the answer is B (Data element).
+	</cor>
+</f>
+<f>
+	<tit>3. Which statement can be used to read a single record from the internal table.
+	</tit>
+		<a>A. Move it_tab to wa_taab with .</a>
+		<b>B. Read table it_tab into wa_tab index .</b>
+		<c>C. Move corresponding it_tab to it_taab1.</c>
+		<d>D. None of the above.</d>
+	<cor>The answer is : B
+	</cor>
+</f>
+<f>
+	<tit>4. Which one of these event will be triggered first when you execute the program?
+	</tit>
+		<a>A. INITIALIZATION</a>
+		<b>B. LOAD-OF-PROGRAM</b>
+		<c>C. START-OF-SELECTION</c>
+		<d>D. END-OF-SELECTION</d>
+	<cor>This one also does not take much time as loading of the program is the first thing which is done and after that it will start looking into the code. So the answer is LOAD-OF-PROGRAM.
+	</cor>
+</f>
+<f>
+	<tit>5. What is the valid combination among these for SAP R/3?
+	</tit>
+		<a>A. 2 application server and 1 data base server</a>
+		<b>B. 2 database server and 1 application server</b>
+		<c>C. 2 application server and 2 database server</c>
+		<d>D. 3 application server and 2 database server</d>
+	<cor>The question is not that clear but as far as SAP is concerned it believes in central instance. So, the answer is A.
+	</cor>
+</f>
+<f>
+	<tit>6. There is one function group name AG which contains three function module FM1, FM2 and FMR. It also has one global variable Gl_val. FM1 and FM2 has a simple code of adding 1 into that variable and FMR has the code of returning that global variable. So what will be the output of falling code?Report test_fungrp.Data : gl_val type i.Data : ret_val type i.Call Function FM1.Clear gl_val.Call Function FM2.Call function FMR importing VAL = Ret_val.Write : / Ret_val.
+	</tit>
+		<a>A. 1</a>
+		<b>B. 2</b>
+		<c>C. 3</c>
+		<d>D. 4</d>
+	<cor>HHhmmm... need to use a little of mind in this. As function group will have only one instance through out the program run, so only one copy of that global variable. Answer is B.
+	</cor>
+</f>
+<f>
+	<tit>7. Which layer will be used to convert the OPEN SQL into the database specific query?
+	</tit>
+		<a>A. WORK Process</a>
+		<b>B. DATA BASE interface</b>
+		<c>C. ABAP interprter</c>
+		<d>D. None of the above</d>
+	<cor>The answer is B. Data base interface that will be used to make SAP database independent.
+	</cor>
+</f>
+<f>
+	<tit>8. You have 10 records into the internal table .you want to make use of loop statement to loop through all the records which system variable can be used to find out the loop iteration?
+	</tit>
+		<a>A. SY-INDEX</a>
+		<b>B. SY-DATUM (What an option!)</b>
+		<c>C. SY-TABIX</c>
+		<d>D. None of thee above</d>
+		<cor>So... Easy, right? The answer is C (SY-TABIX).
+		</cor>
+</f>
+<f>
+	<tit>9. Can a database view be used to fetch the data from the database using SELECT Query?
+	</tit>
+		<a>A. True</a>
+		<b>B. False</b>
+	<cor>The answer is A.
+	</cor>
+</f>
+<f>
+	<tit>10. In Case of Webdynpro for ABAP how will you map context Attribute of view container and component container?
+	</tit>
+		<a>A. Double click on that</a>
+		<b>B. Drag it to the another container`s context</b>
+		<c>C. Wirte the mapping path into context`s attribute</c>
+		<d>D. You cannot mape.</d>
+	<cor>I know you want to kill me!!! But this question was there... Any way, the answer is clearly B.
+	</cor>
+</f>
+<f>
+	<tit>11. Which one of the following will contain user interface?
+	</tit>
+		<a>A. Model</a>
+		<b>B. Component container</b>
+		<c>C. Window</c>
+		<d>D. View</d>
+	<cor>The answer is D.
+	</cor>
+</f>
+<f>
+	<tit>12. Which are of those are GUI types in SAP?
+	</tit>
+		<a>A. HTML GUI</a>
+		<b>B. JAVA based GUI</b>
+		<c>C. Windows GUI</c>
+		<d>D. Web GUI</d>
+	<cor>Hmm... Theory wins. The answers are: A, B, C.
+	</cor>
+</f>
+<f>
+	<tit>13. Parameter id is assigned at what level?
+	</tit>
+		<a>A. Domain</a>
+		<b>B. Data element</b>
+		<c>C. Field level</c>
+		<d>D. None of the above</d>
+	<cor>The answer is B.
+	</cor>
+</f>
+<f>
+	<tit>14. Which of these are correct statements for SELECT-OPTIONS and RANGES?(There are 3 correct answers)
+	</tit>
+		<a>A. SELECT-OPTIONS will generate ranges internal table implicitly.</a>
+		<b>B. RANGES statement will generate ranges internal table explicitly.</b>
+		<c>C. The structure of the internal table generated by SELECT-OPTIONS and RANGES are the same (contain SIGN,OPTIONS,LOW and HIGH)</c>
+		<d>D. The structure of the internal table generated by SELECT-OPTIONS and RANGES are different.</d>
+	<cor>Answer are A, B, C.
+	</cor>
+</f>
+<f>
+	<tit>15. What is the format of the system date variable sy-datum?</tit>
+		<a>A. YYYYMMDD</a>
+		<b>B. MMDDYY</b>
+		<c>C. YYMMDD</c>
+		<d>D. DDMMYYYY</d>
+	<cor>I know it is pure theoretical question, but what can be done. The answer is A.</cor>
+</f>
+<f>
+	<tit>16. What will be the output of the following code for the user has a date format as DD-MM-YYYY? (Assume todays date is the 14th Feb 2010)Report testdate.Write sy-datum.</tit>
+		<a>A. 2010-02-14</a>
+		<b>B. 20100214</b>
+		<c>C. 14-02-2010</c>
+		<d>D. 02-14-2010</d>
+	<cor>The answer is C. What will be the answer of this question (In this case answer is : 20100214.)</cor>		
+</f>
+<f>
+	<tit>17. You are working on a program which is updating the database. Now you want that if something goes wrong you want that your code should be capable of reverting the changes done in database, which statements can be used to achieve this?
+		(There are two correct options)</tit>
+		<a>A. Commit Work.</a>
+		<b>B. Roll Back Work.</b>
+		<c>C. Message &apos;Changes aborted&apos; Type &apos;A&apos;.</c>
+		<d>D. Message &apos;Changes aborted&apos; type &apos;I&apos;.</d>
+	<cor>The answers are B and C.
+	</cor>
+</f>
+<f>
+	<tit>18. You want to declare a variable which can be used outside of the class globally but no one should be allowed to change that variable except the method of that class. How you can achieve this?
+	</tit>
+		<a>A. class class_name Definition.
+		Public section.
+		Data : gl_var type i.
+		Endclass.</a>
+		<b>
+		B. class class_name Definition.
+		Proteced section.
+		Data : gl_var type i.
+		Endclass.</b>
+		<c>
+		C. class class_name Definition.
+		Public section.
+		Data : gl_var type i hidden.
+		Endclass.</c>
+		<d>
+		D. class class_name Definition.
+		Public section.
+		Data : gl_var type i read-only.
+		Endclass.</d>
+	<cor>The answer is D.
+	</cor>
+</f>
+<f>
+	<tit>19. There is a screen 500 with next screen set as 501 in it`s screen attribute. Business want that in some of the condition instead of going to screen 501 it should go to screen 502 after screen 500 finish its execution. How will you achieve this?
+	</tit>
+		<a>A. Use statement LEAVE TO SCREEN 502. in PBO of screen 501.</a>
+		<b>B. Use statement SET SCREEN 0. In PAI of screen 500.</b>
+		<c>C. Use statement SET SCREEN 502. IN PAI of screen 500.</c>
+		<d>D. It is not possible to over right the next screen attribute set into screen 500.</d>
+	<cor>The answer is C. As it will override the next screen attribute set into the screen 500.
+	</cor>
+</f>
+<f>
+	<tit>20. You want to hide a P_MATNR field from the screen how will you achieve it?
+	</tit>
+		<a>A. LOOP AT SCREEN WHERE NAME = `P_MATNR`.
+		SCREEN-ACTIVE = 0.
+		MODIFY SCREEN.
+		ENDLOOP.
+		</a>
+		<b>B. LOOP AT SCREEN.
+		If SCREEN-NAME EQ `P_MATNR`.
+		SCREEN-ACTIVE = 0.
+		MODIFY SCREEN.
+		ENDIF.
+		ENDLOOP.</b>
+		<c>C. LOOP AT SCREEN WHERE NAME = `P_MATNR`.
+		SCREEN-ACTIVE = 0.
+		ENDLOOP.</c>
+		<d>D. READ TABLE SCREEN WITH KEY NAME = `P_MATNR`.
+		SCREEN-ACTIVE = 0.
+		MODIFY SCREEN.</d>
+	<cor>So, seams tricky? But for SCREEN it is only possible to use LOOP AT SCREEN. &quot;Where&quot; condition in LOOP and &quot;read table&quot; statement with screen is not at all possible. So, the answer is B.
+	</cor>
+</f>
+<f>
+	<tit>21. A database table without MANDT field is called? (Select most appropriate answer)
+	</tit>
+		<a>A. Client dependent</a>
+		<b>B. Client in-dependent</b>
+		<c>C. Structure (What an option!!!!!!!!!!)</c>
+		<d>D. Database View.</d>
+	<cor>The answer is B.
+	</cor>
+</f>
+<f>
+	<tit>22. To define the internal table using statement: Data : it_tab type XYZ where XYZ should be of type:
+	</tit>
+		<a>A. Data base table</a>
+		<b>B. Structure</b>
+		<c>C. Table type</c>
+		<d>D. View</d>
+	<cor>The answer is C. As Rest will define work area not the internal table.
+	</cor>
+</f>
+<f>
+	<tit>23. Internal table ITAB has the following data Name Salary	    John 80000      Bob 20000      Amar 10000       David 50000
+		What will be the sy-subrc in following case?     Read table ITAB into WTAB with key Name = `David` using binary search.</tit>
+		<a>A. o</a>
+		<b>B. 4</b>
+		<c>C. 8</c>
+		<d>D. 12</d>
+	<cor>As the mandatory condition to use binary search in internal table is that it should be sorted. Without sorting it will lead to incorrect result. So, the answer is B. Note: What will be answer if you read ITAB without binary search?
+	</cor>
+</f>
+<f>
+	<tit>24. Business want to put validation on plant No. For all the screen. The requirement is to give an error message whenever user give plant 567. What can be the most appropriate way to achieve this?</tit>
+	<a>A. Screen EXIT</a>
+	<b>B. Function module EXIT</b>
+	<c>C. Field EXIT</c>
+	<d>D. USER EXIT</d>
+	<cor>The answer is C.</cor>
+</f>
+<f>
+	<tit>25. Which of the statements are true for BADI?
+		(There are 3 correct answers)</tit>
+	<a>A. You can use filter to choose the implementation you want to call.</a>
+	<b>B. BADI cannot have multiple implementations.</b>
+	<c>C. BADI can be reusable.</c>
+	<d>D. BADI can be filter dependent.</d>
+	<cor>The answers are A, C, D.</cor>
+</f>
+<f>
+	<tit>26. Choose the correct statements for BAPI.</tit>
+	<a>A. BAPIs are the methods of Business Objects.</a>
+	<b>B. BAPIs can be called from Java Application.</b>
+	<c>C. BAPI is interface which contain methods and data declaration.</c>
+	<d>D. You can redefine the BADI as per your choice.</d>
+	<cor>The answers are A and B.</cor>
+</f>
+</root>

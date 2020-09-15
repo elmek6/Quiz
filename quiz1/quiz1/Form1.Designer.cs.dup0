@@ -1,0 +1,305 @@
+﻿namespace quiz1
+{
+    partial class Form1
+    {
+        /// <summary>
+        /// Erforderliche Designervariable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Verwendete Ressourcen bereinigen.
+        /// </summary>
+        /// <param name="disposing">True, wenn verwaltete Ressourcen gelöscht werden sollen; andernfalls False.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Vom Windows Form-Designer generierter Code
+
+        /// <summary>
+        /// Erforderliche Methode für die Designerunterstützung.
+        /// Der Inhalt der Methode darf nicht mit dem Code-Editor geändert werden.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.lblAnt = new System.Windows.Forms.Label();
+            this.boxAntworten = new System.Windows.Forms.GroupBox();
+            this.chkAntE = new System.Windows.Forms.CheckBox();
+            this.chkAntD = new System.Windows.Forms.CheckBox();
+            this.chkAntC = new System.Windows.Forms.CheckBox();
+            this.chkAntB = new System.Windows.Forms.CheckBox();
+            this.chkAntA = new System.Windows.Forms.CheckBox();
+            this.chkAnt = new System.Windows.Forms.CheckBox();
+            this.chkHide = new System.Windows.Forms.CheckBox();
+            this.lblFrage = new System.Windows.Forms.Label();
+            this.cboXMLFile = new System.Windows.Forms.ComboBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.button3 = new System.Windows.Forms.Button();
+            this.scrBarH = new System.Windows.Forms.HScrollBar();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.boxAntworten.SuspendLayout();
+            this.panel1.SuspendLayout();
+            this.panel2.SuspendLayout();
+            this.panel3.SuspendLayout();
+            this.SuspendLayout();
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(11, 40);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(115, 21);
+            this.button1.TabIndex = 0;
+            this.button1.Text = "Previous";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(143, 41);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(115, 21);
+            this.button2.TabIndex = 2;
+            this.button2.Text = "Next";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // lblAnt
+            // 
+            this.lblAnt.AutoEllipsis = true;
+            this.lblAnt.Location = new System.Drawing.Point(111, 15);
+            this.lblAnt.Name = "lblAnt";
+            this.lblAnt.Size = new System.Drawing.Size(553, 49);
+            this.lblAnt.TabIndex = 10;
+            this.lblAnt.Text = "antworten";
+            this.lblAnt.Visible = false;
+            // 
+            // boxAntworten
+            // 
+            this.boxAntworten.Controls.Add(this.chkAntE);
+            this.boxAntworten.Controls.Add(this.chkAntD);
+            this.boxAntworten.Controls.Add(this.chkAntC);
+            this.boxAntworten.Controls.Add(this.chkAntB);
+            this.boxAntworten.Controls.Add(this.chkAntA);
+            this.boxAntworten.Location = new System.Drawing.Point(2, 50);
+            this.boxAntworten.Name = "boxAntworten";
+            this.boxAntworten.Size = new System.Drawing.Size(1124, 125);
+            this.boxAntworten.TabIndex = 16;
+            this.boxAntworten.TabStop = false;
+            // 
+            // chkAntE
+            // 
+            this.chkAntE.AutoSize = true;
+            this.chkAntE.Location = new System.Drawing.Point(6, 101);
+            this.chkAntE.Name = "chkAntE";
+            this.chkAntE.Size = new System.Drawing.Size(67, 17);
+            this.chkAntE.TabIndex = 20;
+            this.chkAntE.Text = "chkAntE";
+            this.chkAntE.UseVisualStyleBackColor = true;
+            // 
+            // chkAntD
+            // 
+            this.chkAntD.AutoSize = true;
+            this.chkAntD.Location = new System.Drawing.Point(6, 78);
+            this.chkAntD.Name = "chkAntD";
+            this.chkAntD.Size = new System.Drawing.Size(68, 17);
+            this.chkAntD.TabIndex = 19;
+            this.chkAntD.Text = "chkAntD";
+            this.chkAntD.UseVisualStyleBackColor = true;
+            // 
+            // chkAntC
+            // 
+            this.chkAntC.AutoSize = true;
+            this.chkAntC.Location = new System.Drawing.Point(6, 55);
+            this.chkAntC.Name = "chkAntC";
+            this.chkAntC.Size = new System.Drawing.Size(67, 17);
+            this.chkAntC.TabIndex = 18;
+            this.chkAntC.Text = "chkAntC";
+            this.chkAntC.UseVisualStyleBackColor = true;
+            // 
+            // chkAntB
+            // 
+            this.chkAntB.AutoSize = true;
+            this.chkAntB.Location = new System.Drawing.Point(6, 32);
+            this.chkAntB.Name = "chkAntB";
+            this.chkAntB.Size = new System.Drawing.Size(67, 17);
+            this.chkAntB.TabIndex = 17;
+            this.chkAntB.Text = "chkAntB";
+            this.chkAntB.UseVisualStyleBackColor = true;
+            // 
+            // chkAntA
+            // 
+            this.chkAntA.AutoSize = true;
+            this.chkAntA.Location = new System.Drawing.Point(6, 9);
+            this.chkAntA.Name = "chkAntA";
+            this.chkAntA.Size = new System.Drawing.Size(67, 17);
+            this.chkAntA.TabIndex = 16;
+            this.chkAntA.Text = "chkAntA";
+            this.chkAntA.UseVisualStyleBackColor = true;
+            // 
+            // chkAnt
+            // 
+            this.chkAnt.AutoSize = true;
+            this.chkAnt.Location = new System.Drawing.Point(13, 15);
+            this.chkAnt.Name = "chkAnt";
+            this.chkAnt.Size = new System.Drawing.Size(59, 17);
+            this.chkAnt.TabIndex = 17;
+            this.chkAnt.Text = "Always";
+            this.chkAnt.UseVisualStyleBackColor = true;
+            this.chkAnt.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
+            // 
+            // chkHide
+            // 
+            this.chkHide.AutoSize = true;
+            this.chkHide.Location = new System.Drawing.Point(533, 169);
+            this.chkHide.Name = "chkHide";
+            this.chkHide.Size = new System.Drawing.Size(48, 17);
+            this.chkHide.TabIndex = 21;
+            this.chkHide.Text = "Hide";
+            this.chkHide.UseVisualStyleBackColor = true;
+            this.chkHide.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged_1);
+            // 
+            // lblFrage
+            // 
+            this.lblFrage.AutoEllipsis = true;
+            this.lblFrage.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblFrage.Location = new System.Drawing.Point(2, 10);
+            this.lblFrage.Name = "lblFrage";
+            this.lblFrage.Size = new System.Drawing.Size(1124, 37);
+            this.lblFrage.TabIndex = 22;
+            this.lblFrage.Text = "lblFrage";
+            // 
+            // cboXMLFile
+            // 
+            this.cboXMLFile.FormattingEnabled = true;
+            this.cboXMLFile.Items.AddRange(new object[] {
+            "quiz1en.xml",
+            "quiz2en.xml",
+            "quiz3en.xml",
+            "quiz4en.xml",
+            "quiz5en.xml",
+            "quiz6en.xml"});
+            this.cboXMLFile.Location = new System.Drawing.Point(6, 43);
+            this.cboXMLFile.Name = "cboXMLFile";
+            this.cboXMLFile.Size = new System.Drawing.Size(128, 21);
+            this.cboXMLFile.TabIndex = 23;
+            this.cboXMLFile.SelectedIndexChanged += new System.EventHandler(this.cboXMLFile_SelectedIndexChanged);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(3, 20);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(131, 13);
+            this.label1.TabIndex = 24;
+            this.label1.Text = "Choose the question book";
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(13, 39);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(92, 23);
+            this.button3.TabIndex = 26;
+            this.button3.Text = "Answer";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // scrBarH
+            // 
+            this.scrBarH.Location = new System.Drawing.Point(11, 19);
+            this.scrBarH.Name = "scrBarH";
+            this.scrBarH.Size = new System.Drawing.Size(247, 18);
+            this.scrBarH.TabIndex = 28;
+            this.scrBarH.Scroll += new System.Windows.Forms.ScrollEventHandler(this.scrBarH_Scroll);
+            // 
+            // panel1
+            // 
+            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel1.Controls.Add(this.scrBarH);
+            this.panel1.Controls.Add(this.button2);
+            this.panel1.Controls.Add(this.button1);
+            this.panel1.Location = new System.Drawing.Point(162, 193);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(273, 73);
+            this.panel1.TabIndex = 29;
+            // 
+            // panel2
+            // 
+            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel2.Controls.Add(this.cboXMLFile);
+            this.panel2.Controls.Add(this.label1);
+            this.panel2.Location = new System.Drawing.Point(2, 192);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(143, 73);
+            this.panel2.TabIndex = 30;
+            // 
+            // panel3
+            // 
+            this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel3.Controls.Add(this.button3);
+            this.panel3.Controls.Add(this.chkAnt);
+            this.panel3.Controls.Add(this.lblAnt);
+            this.panel3.Location = new System.Drawing.Point(452, 192);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(674, 73);
+            this.panel3.TabIndex = 31;
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(1130, 271);
+            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.lblFrage);
+            this.Controls.Add(this.chkHide);
+            this.Controls.Add(this.boxAntworten);
+            this.Controls.Add(this.panel2);
+            this.Controls.Add(this.panel3);
+            this.Name = "Form1";
+            this.Text = "Programmer Övünc Mete";
+            this.Load += new System.EventHandler(this.Form1_Load);
+            this.boxAntworten.ResumeLayout(false);
+            this.boxAntworten.PerformLayout();
+            this.panel1.ResumeLayout(false);
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
+            this.panel3.ResumeLayout(false);
+            this.panel3.PerformLayout();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Label lblAnt;
+        private System.Windows.Forms.GroupBox boxAntworten;
+        private System.Windows.Forms.CheckBox chkAntE;
+        private System.Windows.Forms.CheckBox chkAntD;
+        private System.Windows.Forms.CheckBox chkAntC;
+        private System.Windows.Forms.CheckBox chkAntB;
+        private System.Windows.Forms.CheckBox chkAntA;
+        private System.Windows.Forms.CheckBox chkAnt;
+        private System.Windows.Forms.CheckBox chkHide;
+        private System.Windows.Forms.Label lblFrage;
+        private System.Windows.Forms.ComboBox cboXMLFile;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.HScrollBar scrBarH;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Panel panel3;
+    }
+}
+

@@ -1,0 +1,649 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<root>
+<f>
+	<tit>1. INITIALIZATION, START-OF-SELECTION, AT START-OF- SELECTION, AT START-OF-SELECTION OUTPUT. correct order ?</tit>
+	
+		<a>a) LOAD PROGRAM, INITIALIZATION, AT START-OF-SELECTION OUTPUT, AT START-OF-SELECTION, START-OF-SELECTION </a>
+		<b>b) Obviously changing the order for rest of the options.</b>
+		
+	<cor>a</cor>
+
+</f>
+<f>
+
+	<tit>2. Components of Netweaver . (2 correct answers)</tit>
+	
+		<a>a) Data warehouse . </a>
+		<b>b) Master data management. </b>
+		<c>c) ERP.</c>
+		<d>d) CRM.</d>
+		<e>e) SDM.</e>
+		
+	<cor>a b</cor>
+
+</f>
+<f>
+	
+	<tit> 3. Which of the following part of SAP business suite (3 Answers)</tit>
+	
+		<a>a) SAP Design Byone</a>
+		<b>b) SAP Design All</b>
+		<c>c) Product life cycle management </c>
+		<d>d) ERP </d>
+		<e>e) CRM </e>
+		
+	<cor>c d e</cor>
+
+</f>
+<f>
+	
+	<tit>4. Size of Integer.</tit>
+	
+		<a>A) 8 bytes</a>
+		<b>b) 6 bytes</b>
+		<c>c) 4 bytes </c>
+		<d>d) Assigns as you declare the value.</d>
+	
+	
+	<cor>c</cor>
+
+</f>
+<f>
+	
+	<tit>5. There are two classes CL_SUPER and CL_SUB. Class CL_SUPER has method say SUPER_METHOD and CL_SUB has a method SUB_METHOD.DATA: GO_SUPER type ref to CL_SUPER,GO_SUB type ref to CL_SUB.</tit>
+	
+		<a>a) GO_SUPER->SUPER_METHOD.  </a>
+		<b>b) GO_SUPER->SUB_METHOD. (i CHOSE THIS BUT PLEASE READ THE Q WELL)</b>
+		<c>c) GO_SUB->SUB_METHOD.  </c>
+		<d>d) GO_SUB->SUPER_METHOD.</d>
+		
+	<cor>a c</cor>
+
+</f>
+<f>
+	
+	<tit>6. What you can do in class builder. (3 correct answers) (A NEW Q!!)</tit>
+	
+		<a>a) Local class and Local interface from your local program. </a>
+		<b>b) Redefine classes and interfaces. </b>
+		<c>c) When you can define global class, you can use in F8 Function. </c>
+		
+	<cor>a c</cor>
+
+</f>
+<f>
+	
+	<tit>7. What are the components of ABAP Workbench. (3 ans)</tit>
+	
+		<a>a) Function builder. </a>
+		<b>b) Class Builder. </b>
+		<c>c) Screen Painter. </c>
+		<d>d) Two more options.</d>
+		
+	<cor>a b c</cor>
+
+</f>
+<f>
+	
+	<tit>8. In a table, when buffering settings are switched on and buffering style is single, What would be the option ?</tit>
+	
+		<a>a) SELECT SINGLE. </a>
+		<b>b) SELECT SINGLE...... UPDATE</b>
+		<c>c) SELECT... LOOP</c>
+		<d>d) ... </d>
+		
+	<cor>a</cor>
+
+</f>
+<f>
+	
+	<tit>9. Relationship between Buffering and Index.</tit>
+	
+		<a>a) When retrieving a record using index, you can`t use Buffer. </a>
+		
+	<cor>a</cor>
+
+</f>
+<f>
+	
+	<tit>10. What is defined in ABAP Dictionary ? (3 ans)</tit>
+	
+		<a>a) Type tools. </a>
+		<b>b) Transparent tables. </b>
+		<c>c) Domains. </c>
+		<d>d) Internal tablese)Methods</d>
+		
+	<cor>a b c</cor>
+
+</f>
+<f>
+	
+	<tit>11. What are the components of elementary Search help. (3 ans) - (One more new q!!)</tit>
+	
+		<a>a) Fixed values. </a>
+		<b>b) Value check. </b>
+		<c>c) etc...</c>
+	
+	
+	<cor>a b</cor>
+
+</f>
+<f>
+	
+	<tit>12. What are the parameters of Functional method. (2 ans) - [i dnt hav t giv d ans here :P]</tit>
+	
+		<a>a) Importing </a>
+		<b>b) Exporting</b>
+		<c>c) Changing</c>
+		<d>d) Returning </d>
+		<e>e) Transporting</e>
+		
+	<cor>a d</cor>
+
+</f>
+<f>
+	
+	<tit>13. Order of ALV Grid Control.</tit>
+	
+		<a>a) Create Container   /   ALV grid  /   Pass the values.</a>
+		<b>b) Of course change the order (:P)</b>
+		
+	<cor>a</cor>
+
+</f>
+<f>
+	
+	<tit>14. When you press Double_Click, What will happen. (3 ans)</tit>
+	
+		<a>a) Handler class.</a>
+		<b>b) Handler method.</b>
+		<c>c) event handler class method triggers </c>
+		<d>d) ...</d>
+		<e>e) ...</e>
+	
+	<cor>c</cor>
+
+</f>
+<f>
+	
+	<tit>15. How you will define BADI.</tit>
+	
+		<a>a) Define interface of BADI.(correct) </a>
+		<b>b) Define Class which describes interface. </b>
+		<c>c) Call BADI. </c>
+		<d>d) ...</d>
+	
+	<cor>b c</cor>
+
+</f>
+<f>
+	
+	<tit>16. When is the authorization of user checked for entering data.</tit>
+	
+		<a>a) When entered.</a>
+		<b>b) At selection screen </b>
+		<c>c) At selection screen Output</c>
+		<d>d) End of page.</d>
+	
+	<cor>b</cor>
+
+</f>
+<f>
+	
+	<tit>17. If you want the data in the internal table to be copied without using the header line.., how will you pass</tit>
+	
+		<a>a) Field symbols ASSIGNING ( someting like this). [correct answer]</a>
+		<b>b) ???</b>
+		<c>c) ???</c>
+		<d>d) ???</d>
+	
+	<cor>a</cor>
+
+</f>
+<f>
+	
+	<tit>18. How can you debug the program (3 answer)</tit>
+	
+		<a>a) Place /h in command field </a>
+		<b>b) Execute - > debug </b>
+		<c>c) set break point and execute </c>
+		<d>d) set watch point in the ABAP editor window</d>
+		<e>e) ...</e>
+	
+	<cor>a b c</cor>
+
+</f>
+<f>
+	
+	<tit>19. What can be done using watch point?</tit>
+	
+		<a>a) The contents of internal table can be changed. </a>
+		<b>b) Change the components of the structure.</b>
+		<c>c) Change the content of constants.</c>
+		<d>d) ...</d>
+	
+	<cor>a</cor>
+
+</f>
+<f>
+	
+	<tit>20. There is a local type variable defined gty_1. Which possible definition is allowed in ABAP Statement.</tit>
+	
+		<a>a) Data Var LIKE gty_1.</a>
+		<b>b) Data Var TYPE gty_1 Value 1.  </b>
+		<c>c) Constant Var TYPE gty_1.</c>
+		<d>d) Data Var TYPE gty_1 DEFAULT 1.</d>
+	
+	<cor>b</cor>
+
+</f>
+<f>
+	
+	<tit>21. How can you define an internal table using a Transparent table</tit>
+	
+		<a>a) Data gt_itab type &lt;transparent table&gt;</a>
+		<b>b) Data gt_itab line type of &lt;transparent table&gt;</b>
+		<c>c) Data gt_itab TYPE TABLE OF &lt;table type.&gt; </c>
+		<d>d) Data gt_itab like line of gt_itab. </d>
+	
+	<cor>c d</cor>
+
+</f>
+<f>
+	
+	<tit>22. Parameters for table type? (1 answers pass)</tit>
+	
+		<a>a) Line type</a>
+		<b>b) Access type</b>
+		<c>c) Primary key </c>
+		<d>d) Buffering settings</d>
+		<e>e) ...</e>
+	
+	<cor>c</cor>
+
+</f>
+<f>
+	
+	<tit>23. What is allowed in internal talbe? (3 ans)</tit>
+	
+		<a>a) Insert.</a>
+		<b>b) Delete.</b>
+		<c>c) Modify. </c>
+		<d>d) Select.</d>
+		<e>e) Update.</e>
+	
+	<cor>a b c</cor>
+
+</f>
+<f>
+	
+	<tit>24. Role of Database Interface.(3 ans)</tit>
+	
+		<a>a) Converts open SQL statements to the underlying suitable native SQL. </a>
+		<b>b) SAP Buffering. </b>
+		<c>c) Application independent program. </c>
+		<d>d) ...</d>
+		<e>e) ...</e>
+	
+	<cor>a b c</cor>
+
+</f>
+<f>
+	
+	<tit>25. A and B are two tables, User wants the output in a way such that it should have allrecords common from Table A and Table B, and also contain records from table A.</tit>
+	
+		<a>a) Select... A Outer join B </a>
+		<b>b) Select....A Inner join B.</b>
+		<c>c) Select... Ajoin B.</c>
+		<d>d) Select... loop A into B.</d>
+	
+	<cor>a</cor>
+
+</f>
+<f>
+	
+	<tit>26. Which modularization unit can be used cross client.  ? (Good q!!)</tit>
+	
+		<a>a) Function module. </a>
+		<b>b) Subroutines.</b>
+		<c>c) Events.</c>
+	
+	<cor>a</cor>
+
+</f>
+<f>
+	
+	<tit>27. What can be implemented using BADI`s? (3 ans)</tit>
+	
+		<a>a) Screen enhancements. </a>
+		<b>b) Menu enhancements. </b>
+		<c>c) Source code enhancements. </c>
+		<d>d) ...</d>
+	
+	<cor>a b c</cor>
+
+</f>
+<f>
+	
+	<tit>28. What are the options, If you want to read data from Database, using select statement? (3ans)</tit>
+	
+		<a>a) Pooled table.</a>
+		<b>b) Nested select statement. </b>
+		<c>c) Database View. </c>
+		<d>d) One more option. </d>
+	
+	<cor>b c d</cor>
+
+</f>
+<f>
+	
+	<tit>29. What happen when authorization check has been rejected.</tit>
+	
+		<a>a) SY-SUBRC NE 0. </a>
+		<b>b) Error message e.</b>
+		<c>c) Program abruptly ends.</c>
+	
+	<cor>a</cor>
+
+</f>
+<f>
+	
+	<tit>30. When user is allowed to use where clause.</tit>
+	
+		<a>a) EQ. </a>
+		<b>b) LIKE. </b>
+		<c>c) GT.  </c>
+		<d>d) CT</d>
+		<e>e) CO.</e>
+	
+	<cor>a b c</cor>
+
+</f>
+<f>
+	
+	<tit>31. When large table is buffered and there is a condition such that you always have to specify The full unique key of the table . Which table gives better access?</tit>
+	
+		<a>a) Standard table.</a>
+		<b>b) Access table.</b>
+		<c>c) Hashed table. </c>
+		<d>d) Sorted table.</d>
+	
+	<cor>c</cor>
+
+</f>
+<f>
+	
+	<tit>32. For a Database view, what are the required components?</tit>
+	
+		<a>a) The tables which you want to join. </a>
+		<b>b) The fields from different labels you want in view. </b>
+		<c>c) Join condition. </c>
+		<d>d) Select condition. (This is also possible but not compulsory)</d>
+	
+	<cor>a b c</cor>
+
+</f>
+<f>
+	
+	<tit>33. A customer is doing changes in SAP source code.</tit>
+	
+		<a>a) Customizing.</a>
+		<b>b) Modification. </b>
+		<c>c) Enhancement.</c>
+		<d>d) Correction.</d>
+	
+	<cor>b</cor>
+
+</f>
+<f>
+	
+	<tit>34. How do you declare a internal table with the line type of a Transparent table?</tit>
+	
+		<a>a) Data it type &lt;transparent table&gt;. </a>
+		<b>b) Data it type line of &lt;transparent table&gt;. </b>
+		<c>c) Data it type structure of &lt;transparent table&gt;.</c>
+	
+	<cor>a</cor>
+
+</f>
+<f>
+	
+	<tit>35. What are implicit enhancements used for?</tit>
+	
+		<a>a) Add source code. </a>
+		<b>b) Replace source code</b>
+		<c>c) Add menu option.</c>
+	
+	<cor>a</cor>
+
+</f>
+<f>
+	
+	<tit>36. You have two controllers A and B.A use B as used controller than which of B`s component A can use (2 answers)</tit>
+	
+		<a>a) Context Attribute </a>
+		<b>b) Context Node</b>
+		<c>c) Supply function</c>
+		<d>d) Normal Method </d>
+	
+	<cor>a d</cor>
+
+</f>
+<f>
+	
+	<tit>37. Which of the following objects are DEEP ? (3 Answers)</tit>
+	
+		<a>a) Internal table </a>
+		<b>b) Nested Structure / Nested Loop statement</b>
+		<c>c) Reference variable </c>
+		<d>d) Data type string with elementary type </d>
+		<e>e) Data type F</e>
+	
+	<cor>a c d</cor>
+
+</f>
+<f>
+	
+	<tit>38. Which table have one-to-one relationship with database table?</tit>
+	
+		<a>a) Transparent </a>
+		<b>b) Hashed</b>
+		<c>c) Pool</c>
+		<d>d) Cluster</d>
+	
+	<cor>a</cor>
+
+</f>
+<f>
+	
+	<tit>39. If you want to create structure in two table with same field C_TIME and C_DATE but with different name structure which method you will use?</tit>
+	
+		<a>a) Append Structure </a>
+		<b>b) Include</b>
+		<c>c) Define the field in both tables separately.</c>
+	
+	<cor>a</cor>
+
+</f>
+<f>
+	
+	<tit>40. How are Dialog step processed w.r.t work process in the application layer ?</tit>
+	
+		<a>a) A dialog work process is assigned till the end of each SAP LUW.</a>
+		<b>b) Usually, each dialog step is assigned to different work processes. </b>
+		<c>c) Different steps in different application servers.</c>
+	
+	<cor>b</cor>
+
+</f>
+<f>
+	
+	<tit>41. What can we get using Code inspector?  (3 Answers)</tit>
+	
+		<a>a) Possible to get to know the time for program execution. </a>
+		<b>b) Database tables used </b>
+		<c>c) Variables not used </c>
+		<d>d) Two more options</d>
+	
+	<cor>a b c</cor>
+
+</f>
+<f>
+	
+	<tit>42. What is the common between local and global types?</tit>
+	
+		<a>a) Documentation</a>
+		<b>b) Technical information </b>
+		<c>c) Search help</c>
+		<d>d) Fields</d>
+	
+	<cor>b</cor>
+
+</f>
+<f>
+	
+	<tit>43. What are the components of domain ?(3 Answer)</tit>
+	
+		<a>a) Fixed value </a>
+		<b>b) Search help </b>
+		<c>c) Conversion exits </c>
+		<d>d) Semantic information.</d>
+	
+	<cor>a b c</cor>
+
+</f>
+<f>
+	
+	<tit>44. You have classical (dynpro) screen. You want to add documentation for yourinput field. How you will do it? (2 ans)</tit>
+	
+		<a>a) Add documentation in data element of data dictionary </a>
+		<b>b) Use screen table component DOCUMENTATION to enter in the PBO.</b>
+		<c>c) POH (I forgot the full form). </c>
+		<d>d) ...</d>
+	
+	<cor>a c</cor>
+
+</f>
+<f>
+	
+	<tit>45. How you can create Singleton class ? (3 Answer)</tit>
+	
+		<a>a) Create Abstract class</a>
+		<b>b) Create class with visibility private </b>
+		<c>c) Create instance of class in its static method </c>
+		<d>d) Create event to return the instance of class </d>
+	
+	<cor>b c d</cor>
+
+</f>
+<f>
+	
+	<tit>46. You have got error with warning message for input field in a classical dynpro, how will you process it?</tit>
+	
+		<a>a) Enter the value and press Enter </a>
+		<b>b) Enter the value and Execute (F8) </b>
+		<c>c) Leave the field blank and press Enter </c>
+		<d>d) Leave the field blank and Execute (F8) </d>
+		<e>	e) </e>
+	
+	<cor>a b c d</cor>
+
+</f>
+<f>
+	
+	<tit>47. Which of the following conversion is invalid?</tit>
+	
+		<a>a) Xstring Type to String Type.</a>
+		<b>b) Char Type To I </b>
+		<c>c) Char Type Value "123" into char type length "2" </c>
+		<d>d) ...</d>
+		<e>e) ...</e>
+	
+	<cor>b c</cor>
+
+</f>
+<f>
+	
+	<tit>48. Which of the following object have LEAD_SELECTION_INDEX( ) method ?</tit>
+	
+		<a>a) List</a>
+		<b>b) Parameter</b>
+		<c>c) Context Node </c>
+		<d>d) Context attributes</d>
+		<e>e) Window</e>
+	
+	<cor>c</cor>
+
+</f>
+<f>
+	
+	<tit>49. How will you call a subscreen as a dialog modal in a window ?</tit>
+	
+		<a>a) CALL SUBSCREEN STARTING AT 5 5 in flow logic</a>
+		<b>b) CALL SCREEN STARTING AT 5 5 abap editor </b>
+		<c>c) SET SCREEN abap editor</c>
+		<d>d) SET SUBSCREEN STARTING AT 5 5 in flow logic.</d>
+	
+	<cor>b</cor>
+
+</f>
+<f>
+	
+	<tit>50. Task T1 is processed by a team O1 and team leader wants to release it.Another developer who is not from team O1 wants to do some changes in T1. When he can do changes ?</tit>
+	
+		<a>a) When T1 is activated.</a>
+		<b>b) After O1 released the task T1. </b>
+		<c>c) During T1 is processed by O1.</c>
+		<d>d) ...</d>
+	
+	<cor>b</cor>
+
+</f>
+<f>
+	
+	<tit>51. You want to append table to append table.</tit>
+	
+		<a>a) Append structure start with ZZ or YY. </a>
+		<b>b) Fields of append structure start with ZZ or YY.</b>
+	
+	<cor>a</cor>
+
+</f>
+<f>
+	
+	<tit>52. Parameters are used in .. (Select 3)</tit>
+	
+		<a>a) Methods. </a>
+		<b>b) Functions. </b>
+		<c>c) Interface. </c>
+		<d>d) ...etc,..</d>
+		<e>e) ...etc,..</e>
+	
+	<cor>a b c</cor>
+
+</f>
+<f>
+	
+	<tit>53. Which of following are controllers of Web Dynpro component? (3 ans)</tit>
+	
+		<a>a) Custom controller. </a>
+		<b>b) Window controller. </b>
+		<c>c) View controller. </c>
+		<d>d) Instance controller.</d>
+		<e>e) User controller.</e>
+	
+	<cor>a b c</cor>
+
+</f>
+<f>
+	
+	<tit>54. when a user is using a update function module for updating the database and has realized that all the previous work should be undone to get back database to previous state.</tit>
+	
+		<a>a) ROLLBACK </a>
+		<b>b) exit</b>
+		<c>c) message E type.</c>
+	
+	<cor>a</cor>
+
+</f>
+</root>

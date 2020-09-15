@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<root>
+<f>
+<tit>1. Which requirements must be fulfilled when creating a text table for an existing transparent table using the ABAP Dictionary?  Note: There are three (3) correct answers to this question.</tit>
+
+<a>a) The foreign key field typef the foreign key fieldf the text table must be set to "Key fields/candidates". </a>
+<b>b) The foreign key field typef the foreign key fieldf the text table must be set to "Key fields f a text table". </b>
+<c>c) The language fieldf the text table must be defined using the domain SPRAS. </c>
+<d>d) The text table must be linked to the transparent table by a foreign key relationship with the  cardinality set to 1:CN. </d>
+<e>e) The text table must have the same key fields as the transparent table plus a LANG type key field and at leastne text field that is not a key field. </e>
+
+<cor>B   D E</cor>
+</f>
+<f>
+<tit>2. To which ABAP Dictionary definition can you attach a search help? Note: There are three (3) correct answers to this question. </tit>
+
+<a>a) Database view </a>
+<b>b) Data element </b>
+<c>c) Domain </c>
+<d>d) Componentf a structure </d>
+<e>e) Transparent table </e>
+
+<cor>B   D E</cor>
+</f>
+<f>
+<tit>3. What can be described using Run Time Type Identification (RTTI) classes?  Please select the correct answer. </tit>
+
+<a>a) Function groups </a>
+<b>b) Subroutine pools </b>
+<c>c) Classes </c>
+<d>d) Module pools </d>
+
+<cor>C</cor>
+</f>
+<f>
+<tit>4. What typesf program can contain user interfaces (UIs)? Note: There are two (2) correct answers to this question. </tit>
+
+<a>a) Include program </a>
+<b>b) Executable program </b>
+<c>c) Web Dynpro component </c>
+<d>d) Global class </d>
+<e>e) Subroutine pool </e>
+
+<cor>B C</cor>
+</f>
+<f>
+<tit>5. What is the consequencef activating an inactive versionf a program? Please select the correct answer. </tit>
+
+<a>a) The extended program check is launched for the inactive version. </a>
+<b>b) The inactive version replaces the former active version. </b>
+<c>c) All temporary versions are deleted. </c>
+<d>d) The inactive version and the active version are synchronized. </d>
+
+<cor>B</cor>
+</f>
+<f>
+<tit>6. What features are provided by thebject Navigator? Note: There are three (3) correct answers to this question. </tit>
+
+<a>a) Maintenancef repositorybjects </a>
+<b>b) Simultaneous embeddingf multiple tools in the tool area </b>
+<c>c) Favorites for repositorybjects in the navigation area </c>
+<d>d) Automatic synchronization between the navigation area and tool area </d>
+<e>e) Access to different development tools such as ABAP Editor </e>
+
+<cor>A     C    E</cor>
+</f>
+<f>
+<tit>7. You design a classical screen (dynpro) containing input fields that refer to an ABAP Dictionary structure named S1. Your ABAP program should access the data entered by the user during PAI processing. How do you declare the databject S1? </tit>
+
+<a>a) TABLES s1. </a>
+<b>b) CONTROLS s1 TYPE s1. </b>
+<c>c) GET FIELD s1. </c>
+<d>d) DATA s1 TYPE s1.</d>
+
+<cor>A</cor>
+</f>
+<f>
+<tit>8. What can you set using the field catalogf an ALV grid control?  Note: There are three (3) correct answers to this question. </tit>
+
+<a>a) Visibilityf columns (hide/unhide) </a>
+<b>b) Colorsf the list rows </b>
+<c>c)utput characteristicsf a column such as the column position </c>
+<d>d) Visibilityf toolbar functions (hide/unhide) </d>
+<e>e) (a)Visibilityf columns (hide/unhide) Format propertiesf column content such as the numberf decimal places</e>
+
+<cor>A   C   E</cor>
+</f>
+<f>
+<tit>9. Whichf the following sequencesf ABAP statements is correct? Please select the correct answer. </tit>
+
+<a>a) TYPES: BEGINF gty_1,  comp1 TYPE i,  comp2 TYPE string,  ENDF gty_1. DATA gs_1 TYPE gty_1. DATA gs_2 LIKE gs_1. </a>
+<b>b) SELECT-OPTIONS so_1 FOR gs_1-comp2.  TYPES: BEGINF gty_1,  comp1 TYPE i,  comp2 TYPE string,  ENDF gty_1. DATA gs_2 LIKE gs_1. DATA gs_1 TYPE gty_1. </b>
+<c>c) SELECT-OPTIONS so_1 FOR gs_1-comp2.  TYPES: BEGINF gty_1,  comp1 TYPE i,  comp2 TYPE string,  ENDF gty_1. SELECT-OPTIONS so_1 FOR gs_1-comp2. DATA gs_1 TYPE gty_1. DATA gs_2 LIKE gs_1. </c>
+<d>d) DATA gs_1 TYPE gty_1. DATA gs_2 LIKE gs_1. TYPES: BEGINF gty_1,  comp1 TYPE i,  comp2 TYPE string,  ENDF gty_1. SELECT-OPTIONS so_1 FOR gs_1-comp2</d>
+
+<cor>A</cor>
+</f>
+<f>
+<tit>10. How can you define a type P databject with exactly 9 whole number places followed by 2 decimals? Note: There are two (2) correct answers to this question. </tit>
+
+<a>a) DATA gv_1 TYPE p LENGTH 6 DECIMALS 2. </a>
+<b>b) DATA gv_1 TYPE p LENGTH 9 DECIMALS 2. </b>
+<c>c) DATA gv_1(6) TYPE p DECIMALS 2. </c>
+<d>d) DATA gv_1(9) TYPE p DECIMALS 2. </d>
+
+<cor>A   C </cor>
+</f>
+<f>
+<tit>11. What can be grouped in a single simple enhancement spot? Note: There are two (2) correct answers to this question. </tit>
+
+<a>a) New BAdIs and enhancement sections </a>
+<b>b) Enhancement implementations </b>
+<c>c) New BAdIs </c>
+<d>d) Classical BAdIs and new BAdIs </d>
+<e>e) Explicit enhancement points and enhancement sections </e>
+
+<cor>C    E</cor>
+</f>
+<f>
+<tit>12. Which ABAP statement can be used for an index tablenly? Please select the correct answer. </tit>
+
+<a>a) APPEND </a>
+<b>b) DELETE </b>
+<c>c) SORT </c>
+<d>d) MODIFY</d>
+
+<cor>A</cor>
+</f>
+<f>
+<tit>13. What can you installn SAP NetWeaver Application Server? Please select the correct answer. </tit>
+
+<a>a) Either a standalone ABAP stackr a standalone Java stackr a combinationf an ABAP stack and a Java stack </a>
+<b>b) Either a standalone ABAP stackr a standalone Java stack, but never both stacks </b>
+<c>c) Either a standalone ABAP stackr a combinationf an ABAP stack and a Java stack, but never a standalone Java stack </c>
+<d>d) Either a standalone Java stackr a combinationf an ABAP stack and a Java stack, but never a standalone ABAP stack</d>
+
+<cor>A</cor>
+</f>
+<f>
+<tit>14. You use the aggregation function SUM to calculate the sumf the contentf column A in the resulting setf a SELECT statement.nly records where the sum exceeds 200 should be transferred. Which addition can you use for the SELECT statement? Please select the correct answer. </tit>
+
+<a>a)RDER BY SUM( a ) > 200. </a>
+<b>b) HAVING SUM( a ) > 200. </b>
+<c>c) WHERE SUM( a ) > 200. </c>
+<d>d) GROUP BY SUM( a ) > 200. </d>
+
+<cor>B</cor>
+</f>
+<f>
+<tit>15. You want to perform database changes using synchronous updates. The update function modules should be executed by an update work process. How do you implement this? Please select the correct answer. </tit>
+
+<a>a) Use UPDATE. </a>
+<b>b) Use COMMIT WORK AND WAIT. </b>
+<c>c) Use COMMIT WORK. </c>
+<d>d) Use SET UPDATE TASK LOCAL. EURO COMMIT WORK. </d>
+
+<cor>B</cor>
+</f>
+<f>
+<tit>16. To which partf a Web Dynpro component can you bind propertiesf a UI element? Please select the correct answer. </tit>
+
+<a>a) Contextf the window controller embedding the related view </a>
+<b>b) Controller attributef the related view controller </b>
+<c>c) Contextf the related view controller </c>
+<d>d) Contextf the related component controller</d>
+
+<cor>C</cor>
+</f>
+</root>

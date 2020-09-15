@@ -1,0 +1,780 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<root>
+<f>
+<tit>1 You want to create an outer JOIN on a View for search help? Which option is correct? (1 answer)</tit>
+
+<a>Maintenance view</a>
+<b>Help-View</b>
+<c>DB-View</c>
+
+<cor>B</cor>
+</f>
+<f>
+<tit>2 What applies in a text table to a table (tables given in full, eg SMEAL and SMEALT)? (2 answers)</tit>
+
+<a>A. the text table must have the same key fields as the table itself and have one of type LONG</a>
+<b>B. Foreign key relationship must apply</b>
+<c>C. right alternative</c>
+<d>D. false alternative</d>
+
+<cor>a b</cor>
+</f>
+<f>
+<tit>3 What are the basic components of a search help? (3 answers)</tit>
+
+<a>A. The field to which the search help is attached</a>
+<b>B. the interface parameters (IMPORTING / EXPORTING)</b>
+<c>C. whether a selection screen heard / defined for search help</c>
+<d>D. The table referred to by the search help</d>
+
+<cor>a b    d</cor>
+</f>
+<f>
+<tit>4 You have defined a structure of type t1. Which expression is correct? (2 answers)</tit>
+
+<a>A. TYPES str2 TYPE t1.</a>
+<b>B. TYPES str2 LIKE t1.</b>
+<c>C. DATA str1 TYPE t1.</c>
+<d>D. DATA str1 LIKE t1.</d>
+
+<cor>a   c</cor>
+</f>
+<f>
+<tit>5 In a screen, you create a pushbutton P_SAVE for backing up data. The function code 'SAV'. As it is observed in the PAI that the button was pressed? (1 answer)</tit>
+
+<a>A. Function code / ok_code</a>
+<b>B. A field of type OK is queried</b>
+<c>C. Check in SY-OKCODE field</c>
+<d>D. P_SAVE-okcode</d>
+<e>E. P_SAVE-RETURN</e>
+
+<cor>B</cor>
+</f>
+<f>
+<tit>6 Have subscreen PBO undPAI?</tit>
+
+<a>yes</a>
+<b>no</b>
+<c>yes and no</c>
+
+<cor>yes</cor>
+</f>
+<f>
+<tit>7 What definitions can use types? (3 answers)</tit>
+
+<a>defining subprograms</a>
+<b>definition of parameters for PBO modules</b>
+<c>definition of method parameters</c>
+<d>D.efinition of selection parameters</d>
+
+<cor>a   c d</cor>
+</f>
+<f>
+<tit>8 It is the class cl_vehicle given get_fuel with method. The method get_fuel is defined as the functional method. What is correct? (2 answers)</tit>
+
+<a>A. functional method has exactly one RETURNING parameter</a>
+<b>B. functional method can be used directly for arithmetic expressions</b>
+<c>C. functional method for a RETURN statement is required</c>
+<d>D. functional method can have any number of import and export parameters</d>
+
+<cor>a b</cor>
+</f>
+<f>
+<tit>9.A program to show the bills. What types of programs? (3 answers)</tit>
+
+<a>A. executable program</a>
+<b>B. includes</b>
+<c>C. Web Dynpro</c>
+<d>D. Subroutine</d>
+
+<cor>a b   d</cor>
+</f>
+<f>
+<tit>10 Bundle DB updates? (2 answers)</tit>
+
+<a>so that when the user cancels the TA, DB is kept consistent</a>
+<b>Because after each dialog step an implicit DB commit</b>
+<c>increase the performance of the program</c>
+<d>no implicit DB commit</d>
+
+<cor>a   c</cor>
+</f>
+<f>
+<tit>11 What is permitted with internal tables?</tit>
+
+<a>A. SORTED more costs than STANDARD (one probably)</a>
+<b>B. UPDATE</b>
+<c>C. SELECT</c>
+<d>D. Access to the hash tables index</d>
+
+<cor>a</cor>
+</f>
+<f>
+<tit>12 What is permitted for all internal tables? (3 answers)</tit>
+
+<a>INSERT INTO TABLE ?</a>
+<b>SORT</b>
+<c>MODIFY</c>
+<d>INSERT</d>
+
+<cor>a c   d</cor>
+</f>
+<f>
+<tit>13 Why SAP recommends no modifications to SAP's own programs to make? (2 answers)</tit>
+
+<a>A. Because facilitated support</a>
+<b>B. no adjustment necessary when upgrading</b>
+<c>C. so that the copyrights of SAP ensures</c>
+<d>D. for better performance</d>
+
+<cor>a b</cor>
+</f>
+<f>
+<tit>14 You have a program P1, of which there is an inactive version. (1 answer)</tit>
+
+<a>A. from outside the development environment calls a program P2 on the program P1. It always calls the active version.</a>
+<b>B. only the developers themselves can see the inactive version. There is no access from outside</b>
+<c>C. You activate the inactive version. The inactive becomes the new active version. Active version becomes the new inactive version.</c>
+<d>D. ...</d>
+
+<cor>a</cor>
+</f>
+<f>
+<tit>15 How do you read data from two related tables? (3 answers)</tit>
+
+<a>A. INNER JOIN</a>
+<b>B. LEFT OUTER JOIN</b>
+<c>C. View</c>
+<d>D. nested LOOP statement.</d>
+
+<cor>a b c</cor>
+</f>
+<f>
+<tit>16 A user does not have the command authorization, use the program. The field should be ready for input again. In what event you have to program the authorization check? (1 answer)</tit>
+
+<a>A. AT LINE-SELECTION</a>
+<b>B. AT SELECTION-SCREEN</b>
+<c>C. END-OF-SELECTION</c>
+<d>D. START-OF-SELECTION</d>
+
+<cor>b</cor>
+</f>
+<f>
+<tit>17 A screen field refers to a field of a transparent table (DB table). The table field is typisieret with a data element that usually refers to a domain. One can define the table field so that the properties are specified in data element without reference to a domain. What is not possible in this case? (1 answer)</tit>
+
+<a>A. you can not use it in a DB-join the table</a>
+<b>B. You can not define a search help</b>
+<c>C. you have no system proposal in the foreign key relationship</c>
+
+<cor>b</cor>
+</f>
+<f>
+<tit>18 You have a table with flight data. It contains the abbreviation of the airline in CARRID field. As you can see from the table scarr the name of the airline on the table ZFLIGHT connect. Namely, only the names, where an entry for ZFLIGHT exists. (1 answer)</tit>
+
+<a>A. the table as check table scarr at the test field CARRID the table zflight connect</a>
+<b>B. zflight the table as check table in the test field CARRID the table connect scarr</b>
+<c>C. false alternative</c>
+
+<cor>b</cor>
+</f>
+<f>
+<tit>19 You create a FB in the function group ZTAB. What is the Framework Programme? (1 answer)</tit>
+
+<a>A. SAPMZTAB</a>
+<b>B. SAPLZTAB</b>
+<c>C. SAPFZTAB</c>
+<d>D. SAPTZTAB</d>
+<e>E. ZTAB</e>
+
+<cor>b</cor>
+</f>
+<f>
+<tit>20 Where are watchpoints set up? (2 answers)</tit>
+
+<a>A. in the program from the ABAP Editor Goto-> watchpoints</a>
+<b>B. only in the debugger</b>
+<c>C. AND and OR - possible link</c>
+<d>D. as they are always bound to data objects, and the PGM is always stopped. Whenever the value changes. No matter how they are defined</d>
+
+<cor>b c</cor>
+</f>
+<f>
+<tit>21 What are the tools of the ABAP Workbench?</tit>
+
+<a>A. Screen Painter</a>
+<b>B. Object Navigator</b>
+<c>C. Human Resource</c>
+<d>D. Menu Painter</d>
+<e>E. Function Builder</e>
+
+<cor>a b    d e</cor>
+</f>
+<f>
+<tit>22 Tables with header lines (2 replies)</tit>
+
+<a>A. You can LOOP AT itab, LOOP AT itab alternatively into itab.</a>
+<b>B. an itab with header line consists of two data elements (objects). Header and table body</b>
+<c>C. Tables with header lines are more efficient than ITABS without header</c>
+<d>D. You can access the components of this table itab [] - = &lt;component&gt;, ABC '</d>
+
+<cor>a b</cor>
+</f>
+<f>
+<tit>23 What do you need in Web Dynpro, so that the navigation works between the views? Outbound plug and inbound plug are already defined in the views. (1 answer)</tit>
+
+<a>A. embedded the two views each in its own Windows and then realized the navigation</a>
+<b>B. you make your bed both Views in a Window and defines the navigation links between the views. The navigation link always leads from the outbound plug of a view to the inbound plug of the other view.</b>
+
+<cor>b</cor>
+</f>
+<f>
+<tit>24 One would like to show on a view data, which are in the context of the component controller. How to achieve this? (1 answer)</tit>
+
+<a>A. It copies the context node of the component controller and the context node of the view controller and maps. It binds UI element property to the context of the Views</a>
+<b>B. It shifts the context node of the component controller and the context node of the view controller. It binds UI element property to the context of the Views</b>
+<c>C. It copies the context node of the component controller and the context node of the view controller. It binds UI element property to the context of the Views</c>
+
+<cor>a</cor>
+</f>
+<f>
+<tit>25 Length of i (Unicode question) (1 answer)</tit>
+
+<a>A. 8 bytes</a>
+<b>B. 4 bytes</b>
+<c>C. 1, 2, 4 bytes</c>
+
+<cor>b</cor>
+</f>
+<f>
+<tit>26 What is the advantage of the U.S. system? (2 answers)</tit>
+
+<a>A. facilitates communication betw Culturally different systems</a>
+<b>B. Data exchange betw Different systems is facilitated</b>
+<c>C. protect users from miss understands</c>
+<d>D. found in U.S. systems automatic translation btw Different cultures</d>
+
+<cor>a   c</cor>
+</f>
+<f>
+<tit>27 You want to use SAP GUI. Which UI (surface) is to be used? (2 answers)</tit>
+
+<a>A. BSP</a>
+<b>B. Web Dynpro</b>
+<c>C. classic Dynpro ALV</c>
+<d>D. selection Screens</d>
+
+<cor>c d</cor>
+</f>
+<f>
+<tit>28 You want to call a modal dialog box. Which statement do? (1 answer)</tit>
+
+<a>A. SET SCREEN 200</a>
+<b>B. 200 WINDOW STARTING AT 2 3</b>
+<c>C. CALL SCREEN 200 STARTING AT 5 5</c>
+<d>D. CALL SCREEN 200</d>
+
+<cor>c</cor>
+</f>
+<f>
+<tit>29 Debugger (1 answer)</tit>
+
+<a>A. it is possible to create new data types</a>
+<b>B. it is possible to create new structures</b>
+<c>C. you can manipulate the values in a table, delete rows, add new record</c>
+<d>D. you can manipulate the values at runtime within a table, delete rows, add new records (right)</d>
+
+<cor>d</cor>
+</f>
+<f>
+<tit>30 Data Types (1 answer)</tit>
+
+<a>A. it is impossible in principle of string after i</a>
+<b>B. it is in principle not possible from i to string</b>
+<c>C. n can use for calculate, but not recommend.</c>
+<d>D. implicit type conversion is only for ABAP types and not in dictionary types</d>
+
+<cor>c</cor>
+</f>
+<f>
+<tit>31 Data Types (3 replies)</tit>
+
+<a>A. The length of string is determined dynamically. Gets a value string, the length is set to the length of the value. But now the string is initialized, and the length remains the same and is staffed by SPACES.</a>
+<b>B. x is for bit-like calculations</b>
+<c>C. x is a fixed length, has xstring is determined dynamically</c>
+<d>D. i always 4 bytes (correct alternative)</d>
+
+<cor>b c d</cor>
+</f>
+<f>
+<tit>32 ALV Grid (using the graph) (1 answer)</tit>
+
+<a>A. Screen create a subscreen area, create instance of CL_GUI_CUSTOM_CONTAINER, produce instance of the class CL_GUI_ALV_GRID, call method SET_TABLE_FOR_FIRST_DISPLAY</a>
+<b>B. Create instance of CL_GUI_CUSTOM_CONTAINER, create instance of the class CL_GUI_ALV_GRID, screen create a subscreen area, SET_TABLE_FOR_FIRST_DISPLAY method call</b>
+<c>C. Screen create a subscreen area, call method SET_TABLE_FOR_FIRST_DISPLAY, produce instance of CL_GUI_CUSTOM_CONTAINER, produce instance of the class CL_GUI_ALV_GRID,</c>
+<d>D. Screen create a subscreen area, create instance of the class CL_GUI_ALV_GRID, produce instance of CL_GUI_CUSTOM_CONTAINER, call method SET_TABLE_FOR_FIRST_DISPLAY</d>
+
+<cor>a</cor>
+</f>
+<f>
+<tit>33 What order is necessary to keep in programming? (Large Structured Coding) (1 reply) TYPES: begin of t1, comp1 type i, comp2 type i, end of t1. DATA: TYPE t1 var1, var2 LIKE var1. SELECT-OPTIONS: so_in FOR var2.</tit>
+
+<a>A. DATA: var2 LIKE var1, var1 TYPE t1. TYPES: begin of t1, comp1 type i, comp2 type i, end of t1. SELECT-OPTIONS: so_in FOR var2.</a>
+<b>B. TYPES: begin of t1, comp1 type i, comp2 type i, end of t1. DATA: TYPE t1 var1, var2 LIKE var1. SELECT-OPTIONS: so_in FOR var2.</b>
+<c>C. TYPES: begin of t1, comp1 type i, comp2 type i, end of t1. DATA: var2 LIKE var1, var1 TYPE t1. SELECT-OPTIONS: so_in FOR var2.</c>
+
+<cor>b</cor>
+</f>
+<f>
+<tit>34 Event control. In what order is executed? (1 answer)</tit>
+
+<a>A. LOAD-OF-PROGRAM INITIALIZATION, AT SELECTION-SCREEN, START-OF-SELECTION</a>
+<b>B. INITIALIZATION, LOAD-OF-PROGRAM AT SELECTION-SCREEN, START-OF-SELECTION</b>
+<c>C. INITIALIZATION, START-OF-SELECTION LOAD-OF-PROGRAM AT SELECTION-SCREEN</c>
+<d>D. INITIALIZATION, AT SELECTION-SCREEN, START-OF-SELECTION LOAD-OF-PROGRAM</d>
+
+<cor>a</cor>
+</f>
+<f>
+<tit>35 What may you only have read access? (1 answer) There is no right answer to the question about Proctor!</tit>
+
+<a>WRONG QUESTION</a>
+<b>B. Database view with a table</b>
+<c>C. Projection view with a table</c>
+<d>D. and maintenance view</d>
+
+<cor>FALSCH</cor>
+</f>
+<f>
+<tit>36 What is required to create a database view? (3 replies)</tit>
+
+<a>A. selection conditions must be specified</a>
+<b>B. the tables join relationship must have</b>
+<c>C. table fields must be specified</c>
+<d>D. tables must be specified</d>
+
+<cor>b c d</cor>
+</f>
+<f>
+<tit>37 To change the F1 help for a screen field CARRID. The screen field CARRID refers to a field of a dictionary structure. The field of the structure is typed with a data element that refers to the domain. Which approach is correct? (1 answer)</tit>
+
+<a>A. Change the documentation of the domain</a>
+<b>B. Change the documentation for the data element</b>
+<c>C. Change the documentation of the table field</c>
+
+<cor>b</cor>
+</f>
+<f>
+<tit>38 Which stacks are allowed and can occur? (1 answer)</tit>
+
+<a>A. ABAP + Java</a>
+<b>B. only ABAP server / stack</b>
+<c>C. only Java server / stack</c>
+<d>D. each in their own server</d>
+<e>E. It can Java stack, ABAP stack, ABAP and Java stack</e>
+
+<cor>e</cor>
+</f>
+<f>
+<tit>39 What are the characteristics of NetWeaver? (3 answers)</tit>
+
+<a>A. Bank Analyzer integrates or industry solution IS-U</a>
+<b>B. SAP ERP is integrated into NetWeaver</b>
+<c>C. users, processes and information, application platform</c>
+<d>D. SAP NetWeaver is for integrating heterogeneous system landscapes</d>
+<e>E. SAP NetWeaver is used to integrate non-SAP systems</e>
+
+<cor>c d e</cor>
+</f>
+<f>
+<tit>40 Navigation in the tool area? (3 answers)</tit>
+
+<a>A. There is the option to hide the Navigation Pane</a>
+<b>B. The navigation pane and the workspace are always coupled. To the selected program always comes first the object list in the navigation pane automatically available</b>
+<c>C. Favourites (right)</c>
+<d>D. One can in other tools (Screen Painter, Painter Manu ...) jump</d>
+
+<cor>a   c d</cor>
+</f>
+<f>
+<tit>41 One would like to read from a table 3 fields. MANDT, FIELD1, FIELD2. How would you proceed? (1 answer)</tit>
+
+<a>A. one has added a workspace on the table. SELECT field1 field2 from mandt TDAB into wa.</a>
+<b>B. It has a structure with these 3 fields created SELECT * from dbtab into CORRESPONDING fields of structure</b>
+<c>C. one has added a workspace on the table. SELECT * from dbtab into CORRESPONDING fields of wa</c>
+
+<cor>a</cor>
+</f>
+<f>
+<tit>42 Polymorphism: Polymorphism is achieved through inheritance. With what other concept you can still polymorphism realize / achieve? (1 answer)</tit>
+
+<a>A. Interface concept</a>
+<b>B. Friendship concept</b>
+<c>C. Event concept</c>
+
+<cor>b</cor>
+</f>
+<f>
+<tit>43 Given the structure of the upper class RTTI CL_ABAP_TYPEDESCR. In this upper class was a public functional static method meth (). The returns a reference to the upper class. The subclass CL_ABAP_STRUCTDESCR. On the War a reference defined with DATA r_dersc type ref to CL_ABAP_STRUCTDESCR. Which answer is correct alternative? (1 reply) (BC401, Figure 159)</tit>
+
+<a>A. r_descr! = cl_abaptype_descr => meth ()</a>
+<b>B. r_descr? = cl_abaptype_descr => meth ()</b>
+<c>C. r_descr = cl_abaptype_descr => meth ()</c>
+
+<cor>b</cor>
+</f>
+<f>
+<tit>44 There is a class cl_classname that implements the interface if_intf. References are defined: DATA: r_classname type ref to cl_classname, r_intf type ref to if_intf. CREATE OBJECT r_classname. CREATE OBJECT TYPE r_intf r_classname. There is a method meth, which is defined in interface and implemented in the class. Which call is syntactically correct? (2 answers)</tit>
+
+<a>A. r_classname-> meth ().</a>
+<b>B. r_classname-> it_intf ~ meth ()</b>
+<c>C. r_intf-> meth ().</c>
+<d>D. r_intf-> it_intf ~ meth ().</d>
+
+<cor>a d</cor>
+</f>
+<f>
+<tit>45 You want to pass a value to a subroutine. How can you protect the actual values ??against undefined for UP-abort? (1 answer)</tit>
+
+<a>A. FORM xyz USING VALUE (f_par)</a>
+<b>B. FORM USING xyz f_par</b>
+<c>C. FORM xyz CHANGING f_par</c>
+<d>D. FORM xyz CHANGING VALUE (f_par)</d>
+
+<cor>a</cor>
+</f>
+<f>
+<tit>46 Which extension BAdI can be implemented? (3 answers)</tit>
+
+<a>A. Functionality extension (program exit)</a>
+<b>B. Menu Exit</b>
+<c>C. Screen exit</c>
+<d>D. Database Exit</d>
+<e>E. Type exit</e>
+
+<cor>a   (d is fine / d auch geht)</cor>
+</f>
+<f>
+<tit>47 What do you need to use an existing BAdI? (1 answer)</tit>
+
+<a>A. define BAdI Interface</a>
+<b>B. implement BAdI class that implements the BAdI interface</b>
+<c>C. The BAdI call</c>
+<d>D. create a class that implements the BAdI interface</d>
+
+<cor>c</cor>
+</f>
+<f>
+<tit>48 A search help can be attached to: (3 replies)</tit>
+
+<a>A. domains</a>
+<b>B. check tables</b>
+<c>C. field of a table</c>
+<d>D. data elements</d>
+<e>E. foreign key tables</e>
+
+<cor>b c    e</cor>
+</f>
+<f>
+<tit>49 Data transport from the screen to the program and vice versa. (2 answers)</tit>
+
+<a>A. use in dictionary structures TABLES</a>
+<b>B. the data transport from the program to the screen is always before the first module calling the PBO</b>
+<c>C. with the FIELD statement you have a delayed data transport for screen to the program</c>
+<d>D. ...</d>
+
+<cor>a b</cor>
+</f>
+<f>
+<tit>50 Man sets himself on two database tables. One would like to have two fields in two tables that are not key fields. Fields read: CHANGE_DATE, CHANGE_TIME. How do you go about it? (1 answer)</tit>
+
+<a>A. You create an append structure and adds them both to</a>
+<b>B. It defines the fields individually / separately in both tables to</b>
+<c>C. You put a structure with these fields in this structure and included in the tables</c>
+
+<cor>c</cor>
+</f>
+<f>
+<tit>51 ABAP JOINs. In Question 2 DB tables are fully described. You want to read data from both tables at once. How do you proceed? (1 answer)</tit>
+
+<a>A. RIGHT OUTER JOIN</a>
+<b>B. INNER JOIN dbtab1 ~ field1 (complete code)</b>
+<c>C. INNER JOIN dbtab1.feld1 (complete code)</c>
+
+<cor>b</cor>
+</f>
+<f>
+<tit>52 Help link somewhere (1 reply)</tit>
+
+<a>A. Help view</a>
+<b>B. Maintenance view</b>
+
+<cor>a</cor>
+</f>
+<f>
+<tit>53 They note that an error in an SAP standard program. You want to correct the error in your development system. And then transported to the production system. (1 answer)</tit>
+
+<a>A. modification</a>
+<b>B. repair</b>
+<c>C. correction</c>
+<d>D. Support Package</d>
+<e>E. Hot-Fix</e>
+
+<cor>c</cor>
+</f>
+<f>
+<tit>54 New Enhancements (Enhancement Framework) (2 replies)</tit>
+
+<a>A. Enhancement points summarize explicit Ehancement spots,'s new BAdI and Enhancement Sections</a>
+<b>B. Enhancement Spots summarize explicit Ehancement Points,'s new BAdI and Enhancement Sections</b>
+<c>C. Enhancement Spot, either new BAdI or enhancement include Section / Manage</c>
+<d>D. classic BAdI's are no longer possible</d>
+
+<cor>b c</cor>
+</f>
+<f>
+<tit>55 SAP developer has included in the standard program that the client code can be called. What do you call this art? (1 answer)</tit>
+
+<a>A. extension</a>
+<b>B. personalization</b>
+<c>C. Customizing</c>
+<d>D. modification</d>
+
+<cor>a</cor>
+</f>
+<f>
+<tit>56 You want to change the database table in the database. Use update modules. You want in case of failure to inform users (1 reply)</tit>
+
+<a>A. synchronous update, sy-subrc (mutatis mutandis query), and the message in the inbox</a>
+<b>B. an automatic notification via express mail</b>
+<c>C. after the COMMIT WORK wait a couple seconds</c>
+<d>D. During the update all the time, it is checked whether it worked or not</d>
+
+<cor>a</cor>
+</f>
+<f>
+<tit>57 Why is accounting used? (mutatis mutandis) (2 replies, 4 alternatives)</tit>
+
+<a>A. because implicit DB commit is always performed at the end of a dialog step</a>
+<b>B. because no implicit DB commit is always performed at the end of a dialog step</b>
+<c>C. ...</c>
+<d>D. ...</d>
+
+<cor>a</cor>
+</f>
+<f>
+<tit>58 Work Process Multiplexing was queried but not as a concept.</tit>
+
+
+<cor>?</cor>
+</f>
+<f>
+<tit>59 How to recover input ready screen fields? (1 answer)</tit>
+
+<a>A. FIELD A module check_A. MESSAGE E. ..</a>
+<b>B. FIELD A module check_A. MESSAGE E or W is called in the module check_A</b>
+<c>C. A MESSAGE Send</c>
+<d>D. FIELD A module check_A.</d>
+
+<cor>b</cor>
+</f>
+<f>
+<tit>60 DATA Var (20) TYPe c. DATA: begin of struct1, comp1 (20) type c, comp2 (20) type c, comp3, COMP4 type i, comp5 (20) type c, end of struct1. Var = struct1 +44. Why does it not work? (1 answer)</tit>
+
+<a>A. Since you can not read about i</a>
+<b>B. false alternative</b>
+<c>C. false alternative</c>
+<d>D. false alternative</d>
+
+<cor>a</cor>
+</f>
+<f>
+<tit>61 You want to program a standalone Web Dynpro application. The components you need to create at least? A correct answer 5 questions</tit>
+
+<a>A. Component</a>
+<b>B. Component, Window and View</b>
+<c>C. Component and Window</c>
+
+<cor>b</cor>
+</f>
+<f>
+<tit>62 You want to program a program to display accounting documents. What types of programs you can use? 2 correct answers</tit>
+
+<a>A. selection screen</a>
+<b>B. Web Dynpro APPLICATIO</b>
+<c>C. Program of the type F</c>
+<d>D. Include program</d>
+<e>E. executable</e>
+
+<cor>d e</cor>
+</f>
+<f>
+<tit>63 Which Direction for system events is correct? 1 correct answer</tit>
+
+<a>A. LOAD-OF-PROGRAM-> INITIALIZATION-> START-OF-SELECTION</a>
+<b>B. START-OF-SELECTION-> LOAD-OF-PROGRAM-> INITIALIZATION</b>
+<c>C. AT SELECTION SCREEN-> START-OF-SELECTION-> LOAD-OF-PROGRAM</c>
+<d>D. NITIALISATION-> LOAD-OF-PROGRAM-> START-OF-SELECTION</d>
+
+<cor>a</cor>
+</f>
+<f>
+<tit>64 Which statements are correct for the Enhancement Framework? 2 correct answers</tit>
+
+<a>A. Composite enhancement spots include simple enhancement spots and / or other composite enhancement spots</a>
+<b>B. Manage enhancement points and contain new BADIs, explicit enhancement sections and Enhancement Spots</b>
+<c>C. BADIs old may no longer be used</c>
+<d>D. Enhancement spots contain and manage new BADIs, explicit enhancement points and enhancement sections</d>
+
+<cor>c d</cor>
+</f>
+<f>
+<tit>65 What benefits has a Unicode system? 2 correct answers</tit>
+
+<a>A. You can let employees work from different cultures so</a>
+<b>B. The exchange of data between different Unicode systems is facilitated</b>
+<c>C. Data is automatically translated into the respective languages</c>
+<d>D. A Unicode system is much more efficient than a non-Unicode system</d>
+
+<cor>a b</cor>
+</f>
+<f>
+<tit>66 Consider the following code from a distance NOT Unicode system: DATA: BEGIN OF personName, (20) TYPE C, first name (20) TYPE C, TYPE I age, place (30) TYPE C, END OF person. DATA city (30) TYPE C. city = person +44 (30).</tit>
+
+<a>The system will be converted to Unicode. For whatever reason, this code is no longer possible under the new system. 1 correct answer</a>
+<b>B. Because the data type I in Unicode by default 8 bytes long</b>
+<c>C. Because accessed by offset in Unicode systems is only possible through character types</c>
+<d>D. Because accessed by offset in Unicode systems only not character types is possible</d>
+<e>E. Because are in character-type types per byte assigned to two characters in Unicode systems</e>
+
+<cor>b</cor>
+</f>
+<f>
+<tit>67 What are ABAP statements are correct? 2 correct answers</tit>
+
+<a>A. TYPES: t1 type c, t2 like t1.</a>
+<b>B. TYPES: t1 type c, type t2 t1.</b>
+<c>C. DATA: TYPE t1 d1, d2 d1 like.</c>
+<d>D. DATA: TYPE t1 d1, d2 d1 type.</d>
+
+<cor>b c</cor>
+</f>
+<f>
+<tit>68 In the definition of a package you have to specify the path where the object is transported. This is already defined in the system. What is the way?</tit>
+
+
+<cor>Transport route / Transportweg</cor>
+</f>
+<f>
+<tit>69 What are components of SAP NetWeaver? 3 correct answers (Netweaver Overview)</tit>
+
+<a>A. IS-U</a>
+<b>B. Bank Analyzer</b>
+<c>C. SAP ERP</c>
+<d>D. The ability to call functions in non-SAP systems.</d>
+
+<cor>d</cor>
+</f>
+<f>
+<tit>70 The order in which you must perform the following activities. 1 correct answer (ALV Grid Control)</tit>
+
+<a>1 Define on the screen Control panel -> The instance of CL_GUI_CUSTOM_CONTAINER generate -> The instance of the class cl_gui_alv_grid produce - Call> The method "SET_TABLE_FOR_FIRST_DISPLAY"</a>
+<b>2 The instance of CL_GUI_CUSTOM_CONTAINER generate -> define screen on the Control panel -> The instance of the class cl_gui_alv_grid produce - Call> The method "SET_TABLE_FOR_FIRST_DISPLAY"</b>
+<c>3 define on the screen Control panel -> The instance of the class cl_gui_alv_grid generate -> The instance of CL_GUI_CUSTOM_CONTAINER produce - Call> The method "SET_TABLE_FOR_FIRST_DISPLAY"</c>
+<d>4 define on the screen Control panel -> The instance of CL_GUI_CUSTOM_CONTAINER generate -> call method "SET_TABLE_FOR_FIRST_DISPLAY" -> The instance of the class cl_gui_alv_grid produce</d>
+
+<cor>a</cor>
+</f>
+<f>
+<tit>71 What characteristics of the Application Server are possible? 3 correct answers (Netweaver Overview)</tit>
+
+<a>A. AS Java alone</a>
+<b>B. AS ABAP alone</b>
+<c>C. The combination of Java stack and ABAP stack is possible</c>
+<d>D. It is always either the AS ABAP or AS Java possible</d>
+<e>E. However, the ABAP stack alone can be installed, the JAVA not</e>
+
+<cor>a b</cor>
+</f>
+<f>
+<tit>72 In a class of a private attribute is defined. From where you can speak to this private attribute? 2 correct answers</tit>
+
+<a>A. From the main program out</a>
+<b>B. From the methods of the class</b>
+<c>C. From all subclasses</c>
+<d>D. Was granted from a class of Friendship</d>
+
+<cor>b d</cor>
+</f>
+<f>
+<tit>73 Which statements apply to internal tables with header lines? 2 correct answers</tit>
+
+<a>A. Access to tables without header line are faster than those with header</a>
+<b>B. One can in addition, loop at itab into itab 'also, loop at itab' use</b>
+<c>C. One can by it_sflight [] carrid access a component of the header</c>
+<d>D. There is an internal table and a header that will be addressed by the same name.</d>
+
+<cor>b d</cor>
+</f>
+<f>
+<tit>74 You work in a company in which no modifications are allowed at the tables and you should add two fields to this table. How can you achieve this? 1 correct answer</tit>
+
+<a>A. Use an append structure</a>
+<b>B. Create fields directly in the table</b>
+<c>C. Create a structure and insert them as include in the table</c>
+<d>D. Define a structure in the Top Include</d>
+
+<cor>a</cor>
+</f>
+<f>
+<tit>75 What actions are possible in the debugger? 2 correct answers (using the ABAP Debugger)</tit>
+
+<a>A. Create new variable</a>
+<b>B. Creating new structures</b>
+<c>C. Change internal tables, such as Add rows, edit or delete</c>
+<d>D. Change structure definitions</d>
+<e>E. Change values ??of variables</e>
+
+<cor>c   e</cor>
+</f>
+<f>
+<tit>76 Which statements watchpoints are correct? 2 correct statements</tit>
+
+<a>A. One can only invest in the debugger</a>
+<b>B. They can be in the ABAP Editor "Goto-> watchpoint create" Create or F8.</b>
+<c>C. Several watchpoints can, and 'or' or 'are linked.</c>
+<d>D. Be created in the ABAP Editor using the Assert &lt;Watchpointname&gt; command.</d>
+
+<cor>a   c</cor>
+</f>
+<f>
+<tit>77 What changes the output in ALV Grid are through the field catalog available? 4 correct answers</tit>
+
+<a>A. changing the color of a cell</a>
+<b>B. formatting, e.g. Change decimal places,</b>
+<c>C. the alignment, and column width manipulate.</c>
+<d>D. Hide and add columns.</d>
+<e>E. Change column label.</e>
+
+<cor>b c d e</cor>
+</f>
+<f>
+<tit>78 You have 2 new fields name change_user CHANGE_DATE and that should be no key fields, add 2 to the existing database tables. How do you go about it? 1 correct answer</tit>
+
+<a>A. Create the individual fields in both tables.</a>
+<b>B. Create a structure.</b>
+<c>C. Create an append and use in both tables</c>
+<d>D. Create a structure and use in both tables by include statement</d>
+
+<cor>d</cor>
+</f>
+<f>
+<tit>79 After an ABAP exam you deserve a break. What will you do?</tit>
+
+<a>A. I write in SE80 ABAP my program finished.</a>
+<b>B. I Persuade with my cooking exam questions</b>
+<c>C. There should be a nice Kaffeeria here somewhere, now's the time would know this yet.</c>
+<d>D. I look at the documents and ...</d>
+
+<cor>c</cor>
+</f>
+</root>
